@@ -1,0 +1,30 @@
+contoso_retail_sor_asia.backup  = postgresql
+contoso_retail_sor_europe.sql   = MySQL
+Contoso_Retail_SOR_NorthAmerica.bak  = SQL Server
+Contoso_SOR_Files.zip = tst, csv & xlxs files
+
+context.getProperty("vJobPID")
+
+Integer.parseInt(routines.TalendDate.formatDate("yyyyMMdd",sod.DateKey))
+
+
+
+https://prezi.com/pcrvszjhvlet/copy-of-copy-of-contoso-retail-dashboards/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

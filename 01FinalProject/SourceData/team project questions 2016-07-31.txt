@@ -1,0 +1,136 @@
+ 1. contoso_SOR_Reference does not hae any date?
+ 1.b) use bak file above has data
+ 1.c) bak has data but sql only schema - yes 
+ 1.c) no records in bak
+ 1.d) these tabels has data: customer_company, customer_person and product_crossmap in contoso_sor_reference
+ 1.e) Can you explain about SOR_Reference backup
+
+2. SCD 2 - similar to posted. - yes
+2.a SCD 2 for Product Price & Product  Cost
+
+3. can you convert txt to csv files - yes
+
+4. can you use tUnite - NO NO NO, you get an F in the assignment
+
+5. How do we have to handle null values present in csv?
+--- ask TAs & I'll follow-up with an example
+5.b can we replace all nulls in csv file to blank ? - yes, there is a better way but who cares
+
+6. DimEmployee has many null values - ok, it does. 
+6.b can we replace NULL in endDate column of DimEmployee table with 12/31/9999 - yes
+
+7. Can we use the Product,Product category and product subcategory from one zone only to populate product table?
+-- yes, as long as it has same number of rows & same columns (see crossmap) 2517 rows
+
+8. - target system has hiredatesk and birthdatesk. To populate this, we have to use dimdate table! But most dates are out of range. Dimdate has dates ranging from 2005-2014 only! How do we go about datesks falling beyond this limit?
+ -- 3 ways: 1. create sk in tmap with Talend date functions, 2. create sk in tmap with Java, 3. create sk using SQL query on ingestion (input) or add rows to dim date. 
+--- do you need examples??????? __________________
+YES!!!! need examples professor for 3 ways youve told u
+
+
+9. The Account csv file has some column data which has '+' signs as data, also there are two additional column data for some rows which have no column name, how do we handle this? 
+-- you will not use in BI so ignore the +/- input & extraneous columns. 
+
+10. DO we have have to replace the ETL dates with SOR dates or should keep the same dates?
+-- maps to SOR_LoadDate...
+
+11. How can we populate customer type as both person and organization in a same job to populate DimCustomer table?
+-- 2 different tMaps, could be same job
+
+12. Also what is the alternative to union all the column other than tunite? 
+-- why do you want to union? do not use union construct
+What are the other options if not tunite? - Do NOT do it!!!!  bad grade
+
+
+13. -Primary Keys from source to be mapped or kept as identity of target ?(b/c :identity insert off error appears)
+-- keep it, identity off where appropriate
+
+14. Can be seperate excel sheets into different csv's, for cost_usd_steps_all.xlsx and other xlsx files ? no, you should be able to hanlde txt, csv or worksheets within an Excel file
+
+
+15. To populate DimProductCost we need to use DimProduct table and join all the flatfiles as well for SCD, but there is no common column on which "cost_cny.txt" files can be joined with DimProduct. They contain ProductID which is not present in DimProduct table
+-- use DimProduct_CrossMap table
+-- reference tables, cross map tables or cross something tables
+
+16. How to read sheets from Excel for SCD? tunite which was suggested by TA themselves so what is the other option to combine output from multiple csvs or tables?
+-- 1. feed into a staging table & then process staging table as input
+or 2. just read consecutively based on file date oldest to newest
+
+17. The different sources of company_customer and person_customer have different data for country (for eg, EU source has countrycode_3 - BRT for britain, Asia has a countryname - Japan, US has countrycode_2 - CA for canada. So when we combine all three sources to join with DimGeogrpahy(to fetch the geokey for the target table), should we use multiple columns for joining the data? the geokey is needed in the DimCustomer
+-- different geo key for customer versus store
+
+18. do we have to populate Dim_SOR? - not required
+
+19. tunite is also used for merging all delimited files for cost and price ..can we not use it -- NO
+
+20. Reg. Q8: No professor, we dont need examples to create datesk! But can we use talend/SQL functionalities to quickly populate date-sks on the need basis? If so, Dimdate will not be in sync with dates from all the tables in the system.
+-- yes that is correct.
+---- I will upload a full dim date table later, MSFT only create the time range you have, for BI the exiting dim date is fine
+-- create data sks as discussed 
+*** it would be helpful if you provide us the examples for dateSK...
+
+21. In dimGeography,we have different city but same state province code like for all North america region we have code as AL but we have multiple city with same name..so do we need to consider only city to join as a key?
+-- ??? city, state (if exists) & country
+ 
+22. Just wanted to clarify on the Geokey question, We need to populate the Geokey in DimCustomer, the data for DimCustomer comes from multiple soureces (EU, Asia and US), in each file the country name, city and province is defined differently (some have codes and some have the complete country name and likewise for province/state and city) How do we join the tables with DimGeo to populate the Geokey from DimGeography to DimCustomer
+-- use DimGeography from SOR_Reference
+
+
+23. In DimProduct the columns unitPrice and unitCost should contain current values right? So can we use data from step4 flatfiles for that? Also are these values different for different zones? 
+-- Yes use current values
+-- Step 4, that works IF each product has a Step 4 value which you might not
+-- use a lookup with current flag for current value
+
+24. In The Target DB, FactSales has a column DiscountAmount, But in the sources we have DiscountPct. Do we have to use a formula to calculate DiscountAmount from DiscountPct?
+-- DiscountAmount  is in source? DiscountPct can be ingnored in target.
+
+
+25. there is some error on dimsalesterritory.csv file, like cambridge, England, US as city name, stateprovince and country, which cause null in geokey column, should we just leave it as 0?
+-- is that the only error?   ignore once
+for me, lookup this row
+
+26. Do we have to update unit price and cost in Dimproduct , can we keepit null as we already have it in dimproductcost and can be taken with current flag=1
+-- yes, update with current values
+
+27. Can we have ur .txt with answers mailed? yes, I'll email. I learned to be more organzied today, slightly.
+
+28. Professor Can you please explain the staging process in talend?
+-- is this in refgerence to me saying stage the txt or csv step file???
+-- staging would be temporary or pesistent tables use to process/preprocess data. 
+-- create a stage_cost pr stage_price 
+
+
+29. In The Target DB, FactSales has a column DiscountQuantity, But in the sources we have DiscountPct. Do we have to use a formula to calculate DiscountQuantity from DiscountPct?
+-- Disregard DiscountQuantity !!! Microsoft had it, it was erroneaous but I forgot to delete
+
+30. Are there any other Bad practices for talend that we should most definitely avoid
+-- tUnite & unions!!!!!!!!!!!!!!!!!!!!!
+
+31. Can you explain how are we suppose to handle bad data?
+-- issues on bad data from files...
+-- Reject tables - is to collect the rows that do not meet referential ingerity rules. Incorrect Product_ID or Promotion_Label (PKs to Dimenion PKs, Aks - product_id, brand_id,m productkey & product_label)
+
+32. Professor..what's the optimal runtime for end-to-end load??
+-- TBD, I'll post threshold tomorrow 
+-- do not take an hour to process!!!!
+-- top 2 groups in each section with correct data get boast in grade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

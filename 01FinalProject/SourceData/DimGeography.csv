@@ -1,0 +1,675 @@
+GeographyKey,GeographyType,CityName,StateProvinceName,StateProvinceCode,ContinentName,ContinentCode,RegionCountryName,ISO_3166_numeric,ISO_3166_alpha_2,ISO_3166_alpha_3,Latitude,Longitude,SOR_LoadDate,SOR_UpdateDate,SOR_ID,DI_Job_ID,DI_Create_Date,DI_Modified_Date
+1,Continent,NULL,NULL,NULL,Asia,AS,NULL,,NULL,NULL,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+2,Continent,NULL,NULL,NULL,Europe,EU,NULL,,NULL,NULL,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+3,Continent,NULL,NULL,NULL,North America,NA,NULL,,NULL,NULL,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+269,Country/Region,NULL,NULL,NULL,Asia,AS,Armenia,51,AM,ARM,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+270,Country/Region,NULL,NULL,NSW,Asia,AS,Australia,36,AU,AUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+271,Country/Region,NULL,NULL,NULL,Asia,AS,Bhutan,64,BT,BTN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+272,Country/Region,NULL,NULL,NULL,Asia,AS,China,156,CN,CHN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+273,Country/Region,NULL,NULL,NULL,Asia,AS,India,356,IN,IND,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+274,Country/Region,NULL,NULL,NULL,Asia,AS,Iran,364,IR,IRN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+275,Country/Region,NULL,NULL,NULL,Asia,AS,Japan,392,JP,JPN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+276,Country/Region,NULL,NULL,NULL,Asia,AS,Kyrgyzstan,417,KG,KGZ,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+277,Country/Region,NULL,NULL,NULL,Asia,AS,Pakistan,586,PK,PAK,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+278,Country/Region,NULL,NULL,NULL,Asia,AS,Singapore,702,SG,SGP,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+279,Country/Region,NULL,NULL,NULL,Asia,AS,South Korea,410,KR,KOR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+280,Country/Region,NULL,NULL,NULL,Asia,AS,Syria,760,SY,SYR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+281,Country/Region,NULL,NULL,NULL,Asia,AS,Taiwan,158,TW,TWN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+282,Country/Region,NULL,NULL,NULL,Asia,AS,Thailand,764,TH,THA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+283,Country/Region,NULL,NULL,NULL,Asia,AS,Turkmenistan,795,TM,TKM,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+284,Country/Region,NULL,NULL,NULL,Europe,EU,Denmark       ,208,DK,DNK,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+285,Country/Region,NULL,NULL,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+286,Country/Region,NULL,NULL,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+287,Country/Region,NULL,NULL,NULL,Europe,EU,Greece ,300,GR,GRC,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+288,Country/Region,NULL,NULL,NULL,Europe,EU,the Netherlands,528,NL,NLD,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+289,Country/Region,NULL,NULL,NULL,Europe,EU,Ireland ,372,IE,IRL,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+290,Country/Region,NULL,NULL,NULL,Europe,EU,Italy    ,380,IT,ITA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+291,Country/Region,NULL,NULL,NULL,Europe,EU,Malta,470,MT,MLT,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+292,Country/Region,NULL,NULL,NULL,Europe,EU,Poland ,616,PL,POL,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+293,Country/Region,NULL,NULL,NULL,Europe,EU,Portugal,620,PT,PRT,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+294,Country/Region,NULL,NULL,NULL,Europe,EU,Romania ,642,RO,ROM,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+295,Country/Region,NULL,NULL,NULL,Europe,EU,Russia,643,RU,RUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+296,Country/Region,NULL,NULL,NULL,Europe,EU,Slovenia,705,SI,SVN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+297,Country/Region,NULL,NULL,NULL,Europe,EU,Spain,724,ES,ESP,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+298,Country/Region,NULL,NULL,NULL,Europe,EU,Sweden ,752,SE,SWE,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+299,Country/Region,NULL,NULL,NULL,Europe,EU,Switzerland ,756,CH,CHE,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+300,Country/Region,NULL,NULL,ENG,Europe,EU,United Kingdom,826,GB,GBR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+301,Country/Region,NULL,NULL,AB,North America,NA,Canada,124,CA,CAN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+302,Country/Region,NULL,NULL,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+303,State/Province,NULL,Ahal Province,NULL,Asia,AS,Turkmenistan,795,TM,TKM,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+304,State/Province,NULL,Armenia,NULL,Asia,AS,Armenia,51,AM,ARM,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+305,State/Province,NULL,Beijing,NULL,Asia,AS,China,156,CN,CHN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+306,State/Province,NULL,Chubu,NULL,Asia,AS,Japan,392,JP,JPN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+307,State/Province,NULL,Chuy Province,NULL,Asia,AS,Kyrgyzstan,417,KG,KGZ,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+308,State/Province,NULL,Damascus,NULL,Asia,AS,Syria,760,SY,SYR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+309,State/Province,NULL,GuangDong,NULL,Asia,AS,China,156,CN,CHN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+310,State/Province,NULL,Hokkaido,NULL,Asia,AS,Japan,392,JP,JPN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+311,State/Province,NULL,Hong Kong,NULL,Asia,AS,China,156,CN,CHN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+312,State/Province,NULL,Islamabad Capital Territory,NULL,Asia,AS,Pakistan,586,PK,PAK,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+313,State/Province,NULL,Kansai,NULL,Asia,AS,Japan,392,JP,JPN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+314,State/Province,NULL,Kanto,NULL,Asia,AS,Japan,392,JP,JPN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+315,State/Province,NULL,Krung Thep,NULL,Asia,AS,Thailand,764,TH,THA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+316,State/Province,NULL,Maharashtra,NULL,Asia,AS,India,356,IN,IND,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+317,State/Province,NULL,Molonglo,NSW,Asia,AS,Australia,36,AU,AUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+318,State/Province,NULL,National Capital Territory of Delhi,NULL,Asia,AS,India,356,IN,IND,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+319,State/Province,NULL,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+320,State/Province,NULL,Seoul-jikhalsi,NULL,Asia,AS,South Korea,410,KR,KOR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+321,State/Province,NULL,Shanghai,NULL,Asia,AS,China,156,CN,CHN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+322,State/Province,NULL,Singapore,NULL,Asia,AS,Singapore,702,SG,SGP,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+323,State/Province,NULL,Taiwan,NULL,Asia,AS,Taiwan,158,TW,TWN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+324,State/Province,NULL,Tehran,NULL,Asia,AS,Iran,364,IR,IRN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+325,State/Province,NULL,Thimphu District,NULL,Asia,AS,Bhutan,64,BT,BTN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+326,State/Province,NULL,Tohoku,NULL,Asia,AS,Japan,392,JP,JPN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+327,State/Province,NULL,West Bengal,NULL,Asia,AS,India,356,IN,IND,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+328,State/Province,NULL,Xinjiang,NULL,Asia,AS,China,156,CN,CHN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+329,State/Province,NULL,Yeongnam,NULL,Asia,AS,South Korea,410,KR,KOR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+330,State/Province,NULL,Alpes-Maritimes,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+331,State/Province,NULL,Bas-Rhin,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+332,State/Province,NULL,Bavaria,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+333,State/Province,NULL,Bayern,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+334,State/Province,NULL,Berlin,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+335,State/Province,NULL,Bern,NULL,Europe,EU,Switzerland ,756,CH,CHE,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+336,State/Province,NULL,Bucuresti,NULL,Europe,EU,Romania ,642,RO,ROM,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+337,State/Province,NULL,Central Greece and Evvoia,NULL,Europe,EU,Greece ,300,GR,GRC,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+338,State/Province,NULL,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+339,State/Province,NULL,Hesse,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+340,State/Province,NULL,Ile-del-France,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+341,State/Province,NULL,Leinster,NULL,Europe,EU,Ireland ,372,IE,IRL,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+342,State/Province,NULL,Lisboa Region,NULL,Europe,EU,Portugal,620,PT,PRT,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+343,State/Province,NULL,Ljubljana,NULL,Europe,EU,Slovenia,705,SI,SVN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+344,State/Province,NULL,Lombardia,NULL,Europe,EU,Italy    ,380,IT,ITA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+345,State/Province,NULL,Madrid,NULL,Europe,EU,Spain,724,ES,ESP,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+346,State/Province,NULL,Midi-Pyrenees,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+347,State/Province,NULL,Moskovskaya oblast,NULL,Europe,EU,Russia,643,RU,RUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+348,State/Province,NULL,Nizhny Novgorod Oblast,NULL,Europe,EU,Russia,643,RU,RUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+349,State/Province,NULL,Noord-Holland,NULL,Europe,EU,the Netherlands,528,NL,NLD,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+350,State/Province,NULL,Nordrhein-Westfalen,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+351,State/Province,NULL,North Rhine-Westphalia,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+352,State/Province,NULL,Northwestern,NULL,Europe,EU,Russia,643,RU,RUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+353,State/Province,NULL,Pays de la Loire,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+354,State/Province,NULL,Provence-Alpes-Cote d'Azur,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+355,State/Province,NULL,Province of Florence,NULL,Europe,EU,Italy    ,380,IT,ITA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+356,State/Province,NULL,Province of Turin,NULL,Europe,EU,Italy    ,380,IT,ITA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+357,State/Province,NULL,Rhineland-Palatinate,BB,Europe,EU,Germany ,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+358,State/Province,NULL,Rhone-Alpes ,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+359,State/Province,NULL,Roma,NULL,Europe,EU,Italy    ,380,IT,ITA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+360,State/Province,NULL,Scotland,ENG,Europe,EU,United Kingdom,826,GB,GBR,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+361,State/Province,NULL,Staden Kobenhavn,NULL,Europe,EU,Denmark       ,208,DK,DNK,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+362,State/Province,NULL,Stockholms,NULL,Europe,EU,Sweden ,752,SE,SWE,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+363,State/Province,NULL,Valletta,NULL,Europe,EU,Malta,470,MT,MLT,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+364,State/Province,NULL,Venice,NULL,Europe,EU,Italy    ,380,IT,ITA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+365,State/Province,NULL,Warszawa,NULL,Europe,EU,Poland ,616,PL,POL,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+366,State/Province,NULL,Alaska,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+367,State/Province,NULL,Alberta,AB,North America,NA,Canada,124,CA,CAN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+368,State/Province,NULL,British Columbia,AB,North America,NA,Canada,124,CA,CAN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+369,State/Province,NULL,Colorado,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+370,State/Province,NULL,Connecticut,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+371,State/Province,NULL,Florida,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+372,State/Province,NULL,Maine,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+373,State/Province,NULL,Maryland,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+374,State/Province,NULL,Massachusetts,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+375,State/Province,NULL,New Jersey,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+376,State/Province,NULL,New York,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+377,State/Province,NULL,Ontario,AB,North America,NA,Canada,124,CA,CAN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+378,State/Province,NULL,Quebec,AB,North America,NA,Canada,124,CA,CAN,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+379,State/Province,NULL,South Carolina,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+380,State/Province,NULL,Texas,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+381,State/Province,NULL,Virginia,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+382,State/Province,NULL,Washington,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+383,State/Province,NULL,Wisconsin,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+384,State/Province,NULL,Tasmania,NSW,Asia,AS,Australia,36,AU,AUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+385,State/Province,NULL,Hessen,BB,Europe,EU,Germany,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+386,State/Province,NULL,Mississippi,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+387,State/Province,NULL,Essonne,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+388,State/Province,NULL,Hamburg,BB,Europe,EU,Germany,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+389,State/Province,NULL,Hauts de Seine,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+390,State/Province,NULL,Ohio,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+391,State/Province,NULL,Seine Saint Denis,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+392,State/Province,NULL,Alabama,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+393,State/Province,NULL,Garonne (Haute),17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+394,State/Province,NULL,Arizona,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+395,State/Province,NULL,Pas de Calais,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+396,State/Province,NULL,North Carolina,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+397,State/Province,NULL,Minnesota,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+398,State/Province,NULL,Yveline,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+399,State/Province,NULL,Loiret,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+400,State/Province,NULL,Nord,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+401,State/Province,NULL,Wyoming,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+402,State/Province,NULL,Seine (Paris),17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+403,State/Province,NULL,Val de Marne,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+404,State/Province,NULL,Brandenburg,BB,Europe,EU,Germany,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+405,State/Province,NULL,Val d'Oise,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+406,State/Province,NULL,Kentucky,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+407,State/Province,NULL,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+408,State/Province,NULL,Illinois,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+409,State/Province,NULL,Utah,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+410,State/Province,NULL,Seine et Marne,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+411,State/Province,NULL,Oregon,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+412,State/Province,NULL,South Australia,NSW,Asia,AS,Australia,36,AU,AUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+413,State/Province,NULL,Somme,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+414,State/Province,NULL,Loir et Cher,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+415,State/Province,NULL,Montana,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+416,State/Province,NULL,Charente-Maritime,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+417,State/Province,NULL,California,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+418,State/Province,NULL,Moselle,17,Europe,EU,France,250,FR,FRA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+419,State/Province,NULL,Saarland,BB,Europe,EU,Germany,276,DE,DEU,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+420,State/Province,NULL,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+421,State/Province,NULL,Missouri,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+422,State/Province,NULL,Georgia,AL,North America,NA,United States,840,US,USA,,,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+423,City,Basingstoke Hants,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.08758,51.2656,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+424,City,Bellevue,Washington,AL,North America,NA,United States,840,US,USA,-120.885,47.3164,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+425,City,Bendigo,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,144.279,-36.7537,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+426,City,Berks,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.05846,51.4451,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+430,City,Beverly Hills,California,AL,North America,NA,United States,840,US,USA,-117.378,34.2143,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+431,City,Billings,Montana,AL,North America,NA,United States,840,US,USA,-108.536,45.7751,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+432,City,Biloxi,Mississippi,AL,North America,NA,United States,840,US,USA,-88.9227,30.4054,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+433,City,Birmingham,Alabama,AL,North America,NA,United States,840,US,USA,-86.6111,33.8911,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+434,City,Bluffton,South Carolina,AL,North America,NA,United States,840,US,USA,-82.6339,36.0418,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+435,City,Bobigny,Seine Saint Denis,17,Europe,EU,France,250,FR,FRA,2.43995,48.9058,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+436,City,Bothell,Washington,AL,North America,NA,United States,840,US,USA,-122.196,47.7855,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+437,City,Bottrop,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,6.92285,51.5232,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+438,City,Bountiful,Utah,AL,North America,NA,United States,840,US,USA,-111.887,40.8829,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+439,City,Bracknell,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.743133,51.4185,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+440,City,Braintree,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.0226,42.2127,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+441,City,Branson,Missouri,AL,North America,NA,United States,840,US,USA,-93.2504,36.6464,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+442,City,Bremerton,Washington,AL,North America,NA,United States,840,US,USA,-122.638,47.5734,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+443,City,Burbank,California,AL,North America,NA,United States,840,US,USA,-118.134,34.2315,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+444,City,Burbank,Ohio,AL,North America,NA,United States,840,US,USA,-118.134,34.2315,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+445,City,Burlingame,California,AL,North America,NA,United States,840,US,USA,-122.362,37.5913,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+446,City,Burnaby,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-122.936,49.2336,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+447,City,Bury,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.29642,53.5944,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+448,City,Byron,Georgia,AL,North America,NA,United States,840,US,USA,-90.6038,39.7554,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+449,City,Cambridge,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-72.3411,42.2741,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+450,City,Campbellsville,Kentucky,AL,North America,NA,United States,840,US,USA,-85.3392,37.3451,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+451,City,Carol Stream,Illinois,AL,North America,NA,United States,840,US,USA,-88.1139,41.9098,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+452,City,Carrollton,Texas,AL,North America,NA,United States,840,US,USA,-95.2735,33.2009,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+453,City,Cedar Park,Texas,AL,North America,NA,United States,840,US,USA,-97.8255,30.508,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+454,City,Cergy,Val d'Oise,17,Europe,EU,France,250,FR,FRA,2.03509,49.0516,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+455,City,Cerritos,California,AL,North America,NA,United States,840,US,USA,-118.057,33.8759,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+456,City,Chalk River,Ontario,AB,North America,NA,Canada,124,CA,CAN,-77.4507,46.0175,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+457,City,Chantilly,Virginia,AL,North America,NA,United States,840,US,USA,-77.4465,38.8911,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+458,City,Charlotte,North Carolina,AL,North America,NA,United States,840,US,USA,-80.9166,35.2986,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+459,City,Chatou,Yveline,17,Europe,EU,France,250,FR,FRA,2.15381,48.8899,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+460,City,Chehalis,Washington,AL,North America,NA,United States,840,US,USA,-122.927,46.653,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+461,City,Cheyenne,Wyoming,AL,North America,NA,United States,840,US,USA,-104.81,41.1395,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+462,City,Cincinnati,Ohio,AL,North America,NA,United States,840,US,USA,-84.4943,39.1809,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+463,City,City Of Commerce,California,AL,North America,NA,United States,840,US,USA,-118.148,33.9981,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+464,City,Clarkston,Georgia,AL,North America,NA,United States,840,US,USA,-92.6605,42.9267,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+465,City,Clay,New York,AL,North America,NA,United States,840,US,USA,-81.0803,38.4668,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+466,City,Clearwater,Florida,AL,North America,NA,United States,840,US,USA,-82.8249,28.0369,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+467,City,Cliffside,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-81.7672,35.245,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+468,City,Coffs Harbour,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,153.125,-30.2938,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+469,City,Colma,California,AL,North America,NA,United States,840,US,USA,-122.461,37.6741,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+470,City,Concord,California,AL,North America,NA,United States,840,US,USA,-93.6865,39.5505,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+471,City,Cranbourne,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,145.268,-38.1116,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+472,City,Daly City,California,AL,North America,NA,United States,840,US,USA,-122.469,37.6773,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+473,City,Darlinghurst,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.22,-33.8795,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+474,City,Darmstadt,Hesse,BB,Europe,EU,Germany,276,DE,DEU,8.6525,49.8769,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+475,City,Downey,California,AL,North America,NA,United States,840,US,USA,-118.13,33.9353,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+476,City,Drancy,Seine Saint Denis,17,Europe,EU,France,250,FR,FRA,2.44392,48.9253,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+478,City,East Brisbane,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,153.054,-27.484,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+479,City,Edmonds,Washington,AL,North America,NA,United States,840,US,USA,-122.365,47.8081,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+480,City,Eilenburg,Saxony,BB,Europe,EU,Germany,276,DE,DEU,12.6283,51.4583,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+481,City,Esher-Molesey,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.337036,51.3933,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+482,City,Essen,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,7.01747,51.4592,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+483,City,Frankfurt,Hesse,BB,Europe,EU,Germany,276,DE,DEU,8.72078,50.1212,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+485,City,Gateshead,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.60574,54.9586,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+486,City,Gloucestershire,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.22638,51.7475,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+487,City,Gold Coast,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,153.37,-28.001,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+488,City,Grossmont,California,AL,North America,NA,United States,840,US,USA,-116.989,32.786,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+490,City,Haney,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-122.601,49.214,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+491,City,Hanover,Lower Saxony,BB,Europe,EU,Germany,276,DE,DEU,9.73685,52.3659,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+492,City,Hervey Bay,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,152.865,-25.3058,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+493,City,Hobart,Tasmania,NSW,Asia,AS,Australia,36,AU,AUS,-88.9579,40.6099,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+494,City,Imperial Beach,California,AL,North America,NA,United States,840,US,USA,-117.121,32.5839,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+495,City,Issaquah,Washington,AL,North America,NA,United States,840,US,USA,-122.04,47.5414,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+496,City,Kiel,Schleswig-Holstein,BB,Europe,EU,Germany,276,DE,DEU,-88.0115,43.9246,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+497,City,Kirkby,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.17253,54.4463,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+498,City,Lancaster,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-80.4839,39.5551,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+499,City,Langley,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-122.57,49.0732,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+500,City,Lebanon,Oregon,AL,North America,NA,United States,840,US,USA,-81.2862,39.8576,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+501,City,Leeds,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-85.3772,42.0456,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+502,City,Lemon Grove,California,AL,North America,NA,United States,840,US,USA,-117.044,32.7385,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+503,City,Les Ulis,Essonne,17,Europe,EU,France,250,FR,FRA,2.16922,48.6798,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+504,City,Lieusaint,Seine et Marne,17,Europe,EU,France,250,FR,FRA,2.55098,48.6309,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+505,City,Lincoln Acres,California,AL,North America,NA,United States,840,US,USA,-117.073,32.6646,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+506,City,London,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-83.4841,37.9188,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+507,City,Lynnwood,Washington,AL,North America,NA,United States,840,US,USA,-122.287,47.829,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+508,City,Marysville,Washington,AL,North America,NA,United States,840,US,USA,-101.851,43.4173,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+509,City,Matraville,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.235,-33.9619,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+510,City,Melton,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,144.592,-37.6817,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+511,City,Metchosin,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-123.528,48.3793,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+512,City,Milsons Point,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.205,-33.8401,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+513,City,Mühlheim am Main,Hesse,BB,Europe,EU,Germany,276,DE,DEU,8.83279,50.1232,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+515,City,Munster,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,7.62251,51.9633,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+516,City,National City,California,AL,North America,NA,United States,840,US,USA,-115.82,32.9462,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+517,City,Neunkirchen,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,7.1845,49.3465,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+518,City,Newcastle,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,-110.194,45.0792,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+519,City,North Ryde,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.12,-33.7968,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+520,City,Oakland,California,AL,North America,NA,United States,840,US,USA,-118.149,37.993,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+521,City,Offenbach am Main,Hesse,BB,Europe,EU,Germany,276,DE,DEU,8.69933,50.0275,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+522,City,Olympia,Washington,AL,North America,NA,United States,840,US,USA,-122.875,47.0339,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+523,City,Oregon City,Oregon,AL,North America,NA,United States,840,US,USA,-122.581,45.3381,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+524,City,Orly,Val de Marne,17,Europe,EU,France,250,FR,FRA,2.40203,48.7441,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+525,City,Oxford,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-81.4681,37.9864,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+527,City,Palo Alto,California,AL,North America,NA,United States,840,US,USA,-122.138,37.4306,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+528,City,Pantin,Seine Saint Denis,17,Europe,EU,France,250,FR,FRA,2.41345,48.8923,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+529,City,Paris,Seine (Paris),17,Europe,EU,France,250,FR,FRA,-89.5976,36.8915,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+530,City,Paris La Defense,Hauts de Seine,17,Europe,EU,France,250,FR,FRA,2.55179,48.7327,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+531,City,Perth,South Australia,NSW,Asia,AS,Australia,36,AU,AUS,115.892,-31.9441,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+532,City,Peterborough,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-71.9547,42.8731,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+533,City,Poing,Bavaria,BB,Europe,EU,Germany,276,DE,DEU,11.8179,48.1691,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+534,City,Port Macquarie,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,152.908,-31.4366,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+535,City,Port Orchard,Washington,AL,North America,NA,United States,840,US,USA,-122.651,47.5129,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+536,City,Portland,Oregon,AL,North America,NA,United States,840,US,USA,-115.295,45.1279,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+537,City,Puyallup,Washington,AL,North America,NA,United States,840,US,USA,-122.294,47.175,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+538,City,Redwood City,California,AL,North America,NA,United States,840,US,USA,-122.235,37.5076,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+539,City,Roncq,Nord,17,Europe,EU,France,250,FR,FRA,3.1181,50.7539,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+540,City,Roubaix,Nord,17,Europe,EU,France,250,FR,FRA,3.17838,50.6881,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+541,City,Runcorn,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.72855,53.3371,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+542,City,Saarlouis,Saar,BB,Europe,EU,Germany,276,DE,DEU,6.75073,49.3157,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+543,City,Saint Germain en Laye,Yveline,17,Europe,EU,France,250,FR,FRA,2.09772,48.8996,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+544,City,Saint Ouen,Somme,17,Europe,EU,France,250,FR,FRA,2.33345,48.9067,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+545,City,Saint-Denis,Seine Saint Denis,17,Europe,EU,France,250,FR,FRA,2.36549,48.9351,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+546,City,San Carlos,California,AL,North America,NA,United States,840,US,USA,-121.82,37.3589,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+547,City,Santa Monica,California,AL,North America,NA,United States,840,US,USA,-118.479,34.0228,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+548,City,Sèvres,Hauts de Seine,17,Europe,EU,France,250,FR,FRA,2.2165,48.8253,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+549,City,Silverwater,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.043,-33.8306,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+550,City,Sooke,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-123.727,48.3753,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+551,City,Spokane,Washington,AL,North America,NA,United States,840,US,USA,-117.225,47.6386,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+552,City,Spring Valley,California,AL,North America,NA,United States,840,US,USA,-96.197,38.5558,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+553,City,Springwood,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,150.558,-33.701,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+554,City,St. Leonards,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.191,-33.8234,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+555,City,Stuttgart,Baden-Wuerttemberg,BB,Europe,EU,Germany,276,DE,DEU,-91.5537,34.46,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+556,City,Sulzbach Taunus,Saar,BB,Europe,EU,Germany,276,DE,DEU,8.53014,50.1341,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+557,City,Suresnes,Hauts de Seine,17,Europe,EU,France,250,FR,FRA,2.21334,48.8733,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+558,City,Sydney,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.216,-33.8625,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+559,City,Tacoma,Washington,AL,North America,NA,United States,840,US,USA,-122.443,47.23,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+560,City,Torrance,California,AL,North America,NA,United States,840,US,USA,-118.326,33.8369,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+561,City,Townsville,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,146.816,-19.266,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+562,City,Vancouver,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-122.613,45.6456,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+563,City,Verrieres Le Buisson,Essonne,17,Europe,EU,France,250,FR,FRA,2.26994,48.7472,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+564,City,Versailles,Yveline,17,Europe,EU,France,250,FR,FRA,-85.1406,38.482,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+565,City,W. York,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.08034,53.956,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+566,City,Walla Walla,Washington,AL,North America,NA,United States,840,US,USA,-118.34,46.0634,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+567,City,Warrington,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-75.1394,40.2384,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+568,City,Warrnambool,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,142.484,-38.3736,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+569,City,Werne,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,7.63319,51.664,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+570,City,West Covina,California,AL,North America,NA,United States,840,US,USA,-117.914,34.0682,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+571,City,Westminster,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-99.1699,38.6588,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+572,City,Wokingham,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.837364,51.4097,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+573,City,Woodburn,Oregon,AL,North America,NA,United States,840,US,USA,-122.857,45.1486,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+574,City,Woolston,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.53952,53.4038,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+575,City,Yakima,Washington,AL,North America,NA,United States,840,US,USA,-120.478,46.4224,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+576,City,York,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-77.5077,39.7732,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+577,City,Ballard,Washington,AL,North America,NA,United States,840,US,USA,-122.391,47.6728,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+578,City,Barstow,California,AL,North America,NA,United States,840,US,USA,-117.064,34.8649,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+579,City,Baytown,Texas,AL,North America,NA,United States,840,US,USA,-94.9718,29.7578,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+580,City,Beaverton,Oregon,AL,North America,NA,United States,840,US,USA,-122.586,45.4815,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+581,City,Bell Gardens,California,AL,North America,NA,United States,840,US,USA,-118.16,33.961,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+582,City,Bellflower,California,AL,North America,NA,United States,840,US,USA,-118.127,33.8835,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+583,City,Bellingham,Washington,AL,North America,NA,United States,840,US,USA,-119.901,48.4301,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+584,City,Berkeley,California,AL,North America,NA,United States,840,US,USA,-120.391,38.0886,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+585,City,Berkshire,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.963728,51.46,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+586,City,Berlin,Berlin,BB,Europe,EU,Germany,276,DE,DEU,-76.5535,41.5873,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+587,City,Billericay,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,0.417749,51.6337,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+588,City,Birmingham,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-86.6111,33.8911,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+590,City,Bonn,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,7.10944,50.7397,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+591,City,Boulogne-Billancourt,Hauts de Seine,17,Europe,EU,France,250,FR,FRA,2.25302,48.8416,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+592,City,Boulogne-sur-Mer,Pas de Calais,17,Europe,EU,France,250,FR,FRA,1.61926,50.7238,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+593,City,Bradenton,Florida,AL,North America,NA,United States,840,US,USA,-82.5401,27.4625,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+594,City,Branch,Minnesota,AL,North America,NA,United States,840,US,USA,-92.9616,45.486,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+595,City,Brunswick,Lower Saxony,BB,Europe,EU,Germany,276,DE,DEU,10.5243,52.2671,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+596,City,Brisbane,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,-122.4,37.6834,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+597,City,Burien,Washington,AL,North America,NA,United States,840,US,USA,-122.337,47.4632,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+598,City,Calgary,Alberta,AB,North America,NA,Canada,124,CA,CAN,-114.061,51.0568,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+599,City,Caloundra,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,153.129,-26.7975,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+600,City,Camarillo,California,AL,North America,NA,United States,840,US,USA,-119.032,34.2167,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+601,City,Canoga Park,California,AL,North America,NA,United States,840,US,USA,-118.598,34.2074,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+602,City,Carson,California,AL,North America,NA,United States,840,US,USA,-117.705,33.8879,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+603,City,Casper,Wyoming,AL,North America,NA,United States,840,US,USA,-106.334,42.8654,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+604,City,Cedar City,Utah,AL,North America,NA,United States,840,US,USA,-113.096,37.7259,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+605,City,Central Valley,New York,AL,North America,NA,United States,840,US,USA,-74.1223,41.3256,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+606,City,Chandler,Arizona,AL,North America,NA,United States,840,US,USA,-111.062,33.4954,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+607,City,Cheektowaga,New York,AL,North America,NA,United States,840,US,USA,-78.752,42.9105,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+608,City,Cheltenham,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-75.1048,40.0602,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+609,City,Chicago,Illinois,AL,North America,NA,United States,840,US,USA,-87.6548,41.8867,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+610,City,Chula Vista,California,AL,North America,NA,United States,840,US,USA,-117.03,32.6301,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+611,City,Citrus Heights,California,AL,North America,NA,United States,840,US,USA,-121.284,38.6889,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+612,City,Clackamas,Oregon,AL,North America,NA,United States,840,US,USA,-122.553,45.4114,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+613,City,Cloverdale,South Australia,NSW,Asia,AS,Australia,36,AU,AUS,-79.8991,37.3778,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+614,City,College Station,Texas,AL,North America,NA,United States,840,US,USA,-96.2966,30.6045,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+615,City,Colombes,Hauts de Seine,17,Europe,EU,France,250,FR,FRA,2.25155,48.9298,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+616,City,Colomiers,Garonne (Haute),17,Europe,EU,France,250,FR,FRA,1.33568,43.6125,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+617,City,Columbus,Georgia,AL,North America,NA,United States,840,US,USA,-83.921,39.0351,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+618,City,Columbus,Ohio,AL,North America,NA,United States,840,US,USA,-83.921,39.0351,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+619,City,Coronado,California,AL,North America,NA,United States,840,US,USA,-117.172,32.6914,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+620,City,Corvallis,Oregon,AL,North America,NA,United States,840,US,USA,-122.939,44.6178,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+621,City,Courbevoie,Hauts de Seine,17,Europe,EU,France,250,FR,FRA,2.25818,48.9008,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+622,City,Croix,Nord,17,Europe,EU,France,250,FR,FRA,3.14994,50.6772,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+623,City,Dresden,Saxony,BB,Europe,EU,Germany,276,DE,DEU,-88.6895,36.2758,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+624,City,Dunkerque,Nord,17,Europe,EU,France,250,FR,FRA,2.38944,51.035,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+625,City,El Cajon,California,AL,North America,NA,United States,840,US,USA,-116.964,32.8055,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+626,City,Erlangen,Bavaria,BB,Europe,EU,Germany,276,DE,DEU,11.0062,49.5991,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+627,City,Everett,Washington,AL,North America,NA,United States,840,US,USA,-117.815,47.466,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+628,City,Findon,South Australia,NSW,Asia,AS,Australia,36,AU,AUS,138.511,-34.8947,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+629,City,Frankfurt,Bavaria,BB,Europe,EU,Germany,276,DE,DEU,10.5274,49.6806,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+631,City,Fremont,California,AL,North America,NA,United States,840,US,USA,-117.533,38.0617,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+632,City,Geelong,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,144.342,-38.1652,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+633,City,Glendale,California,AL,North America,NA,United States,840,US,USA,-112.644,34.9169,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+634,City,Goulburn,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,149.71,-34.7513,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+635,City,Grevenbroich,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,6.58674,51.0911,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+637,City,Hawthorne,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,-90.3875,38.5196,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+638,City,High Wycombe,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.749828,51.6256,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+639,City,Hof,Bavaria,BB,Europe,EU,Germany,276,DE,DEU,11.9076,50.3164,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+640,City,Ingolstadt,Bavaria,BB,Europe,EU,Germany,276,DE,DEU,11.4162,48.7663,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+641,City,Kassel,Hesse,BB,Europe,EU,Germany,276,DE,DEU,9.50197,51.3114,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+642,City,Kirkland,Washington,AL,North America,NA,United States,840,US,USA,-121.942,47.6424,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+643,City,La Jolla,California,AL,North America,NA,United States,840,US,USA,-117.248,32.864,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+644,City,Lake Oswego,Oregon,AL,North America,NA,United States,840,US,USA,-122.724,45.415,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+645,City,Lakewood,California,AL,North America,NA,United States,840,US,USA,-97.9206,40.0683,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+646,City,Lane Cove,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.172,-33.8149,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+647,City,Langford,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-123.506,48.4519,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+648,City,Lavender Bay,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.208,-33.8446,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+649,City,Leipzig,Saxony,BB,Europe,EU,Germany,276,DE,DEU,12.3681,51.3393,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+650,City,Lille,Nord,17,Europe,EU,France,250,FR,FRA,3.04469,50.6394,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+651,City,Liverpool,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-76.2099,43.0581,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+652,City,Long Beach,California,AL,North America,NA,United States,840,US,USA,-115.779,34.0116,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+653,City,Los Angeles,California,AL,North America,NA,United States,840,US,USA,-118.325,34.0425,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+654,City,Maidenhead,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.723542,51.5243,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+655,City,Malabar,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,-80.5578,27.9832,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+656,City,Melbourne,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,-80.6493,28.1132,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+657,City,Metz,Moselle,17,Europe,EU,France,250,FR,FRA,6.16323,49.1147,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+658,City,Mill Valley,California,AL,North America,NA,United States,840,US,USA,-122.523,37.8902,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+659,City,Milton Keynes,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.700636,52.0362,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+660,City,Milwaukie,Oregon,AL,North America,NA,United States,840,US,USA,-122.619,45.4382,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+661,City,Morangis,Essonne,17,Europe,EU,France,250,FR,FRA,2.33112,48.7048,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+662,City,Hamburg ,Hamburg,BB,Europe,EU,Germany,276,DE,DEU,9.99382,53.5552,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+664,City,Mönchengladbach,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,6.43082,51.1891,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+665,City,N. Vancouver,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-123.075,49.3177,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+666,City,Newcastle upon Tyne,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.61236,54.9785,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+667,City,Newport Beach,California,AL,North America,NA,United States,840,US,USA,-117.877,33.6431,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+668,City,Newton,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-76.659,41.1328,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+669,City,North Sydney,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.205,-33.8396,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+670,City,Novato,California,AL,North America,NA,United States,840,US,USA,-122.545,38.0823,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+671,City,Oak Bay,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-123.312,48.4362,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+672,City,Orleans,Loiret,17,Europe,EU,France,250,FR,FRA,-73.6582,41.0851,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+673,City,Oxon,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.25096,51.7501,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+674,City,Paderborn,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,8.75253,51.7192,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+675,City,Port Hammond,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-122.853,49.2438,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+676,City,Reading,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-75.8472,40.4668,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+677,City,Redmond,Washington,AL,North America,NA,United States,840,US,USA,-122.092,47.5501,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+678,City,Renton,Washington,AL,North America,NA,United States,840,US,USA,-122.219,47.4658,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+679,City,Rhodes,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,151.088,-33.8328,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+680,City,Rockhampton,Queensland,NSW,Asia,AS,Australia,36,AU,AUS,150.524,-23.3775,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+681,City,Roissy en Brie,Seine et Marne,17,Europe,EU,France,250,FR,FRA,2.65006,48.7925,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+682,City,Royal Oak,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-83.1542,42.4974,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+683,City,Saarbrücken,Saar,BB,Europe,EU,Germany,276,DE,DEU,6.99214,49.2344,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+684,City,Saint Ouen,Charente-Maritime,17,Europe,EU,France,250,FR,FRA,2.32713,48.8997,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+685,City,Saint Ouen,Loir et Cher,17,Europe,EU,France,250,FR,FRA,1.07837,47.8091,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+686,City,Salem,Oregon,AL,North America,NA,United States,840,US,USA,-98.0132,42.7735,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+687,City,Salzgitter,Lower Saxony,BB,Europe,EU,Germany,276,DE,DEU,10.334,52.1507,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+688,City,San Diego,California,AL,North America,NA,United States,840,US,USA,-117.161,32.8346,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+689,City,San Francisco,California,AL,North America,NA,United States,840,US,USA,-122.405,37.7839,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+690,City,San Gabriel,California,AL,North America,NA,United States,840,US,USA,-118.093,34.0961,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+691,City,Santa Cruz,California,AL,North America,NA,United States,840,US,USA,-122.02,36.9786,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+692,City,Seaford,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,-75.6097,38.6342,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+693,City,Seattle,Washington,AL,North America,NA,United States,840,US,USA,-122.333,47.6061,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+694,City,Sedro Woolley,Washington,AL,North America,NA,United States,840,US,USA,-122.127,48.5123,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+695,City,Shawnee,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-95.261,37.1673,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+696,City,Solingen,North Rhine-Westphalia,BB,Europe,EU,Germany,276,DE,DEU,7.08886,51.1701,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+697,City,South Melbourne,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,144.976,-37.8271,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+698,City,Stoke-on-Trent,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.18097,53.0264,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+699,City,Sunbury,Victoria,NSW,Asia,AS,Australia,36,AU,AUS,-78.006,40.7412,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+700,City,Tremblay-en-France,Seine Saint Denis,17,Europe,EU,France,250,FR,FRA,2.57245,48.952,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+701,City,Victoria,British Columbia,AB,North America,NA,Canada,124,CA,CAN,-96.7906,29.8089,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+702,City,Villeneuve-d'Ascq,Nord,17,Europe,EU,France,250,FR,FRA,3.12921,50.6207,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+703,City,W. Linn,Oregon,AL,North America,NA,United States,840,US,USA,-122.618,45.3637,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+704,City,Watford,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.40452,51.6564,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+705,City,West Sussex,England,ENG,Europe,EU,United Kingdom,826,GB,GBR,-0.457252,50.9236,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+706,City,Wollongong,New South Wales,NSW,Asia,AS,Australia,36,AU,AUS,150.894,-34.4272,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+707,City,Woodland Hills,California,AL,North America,NA,United States,840,US,USA,-118.598,34.1769,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+708,City,Ashgabat,Ahal Province,NULL,Asia,AS,Turkmenistan,795,TM,TKM,58.3701,37.9494,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+709,City,Bangkok,Krung Thep,NULL,Asia,AS,Thailand,764,TH,THA,100.537,13.7394,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+710,City,Beijing,Beijing,NULL,Asia,AS,China,156,CN,CHN,116.386,39.9093,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+711,City,Bishkek,Chuy Province,NULL,Asia,AS,Kyrgyzstan,417,KG,KGZ,74.5561,42.8582,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+712,City,Busan ,Yeongnam,NULL,Asia,AS,South Korea,410,KR,KOR,129.086,35.1631,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+713,City,Canberra,Molonglo,NSW,Asia,AS,Australia,36,AU,AUS,149.129,-35.2819,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+714,City,Damascus,Damascus,NULL,Asia,AS,Syria,760,SY,SYR,-99.8174,42.353,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+715,City,Guangzhou,GuangDong,NULL,Asia,AS,China,156,CN,CHN,113.297,23.1792,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+716,City,Hong Kong,Hong Kong,NULL,Asia,AS,China,156,CN,CHN,114.208,22.2662,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+717,City,Islamabad,Islamabad Capital Territory,NULL,Asia,AS,Pakistan,586,PK,PAK,73.0774,33.6968,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+718,City,Kolkata ,West Bengal,NULL,Asia,AS,India,356,IN,IND,72.8548,19.0693,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+719,City,Kyoto ,Kansai,NULL,Asia,AS,Japan,392,JP,JPN,135.765,35.0213,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+720,City,Miyagi,Tohoku,NULL,Asia,AS,Japan,392,JP,JPN,140.856,38.2568,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+721,City,Mumbai ,Maharashtra,NULL,Asia,AS,India,356,IN,IND,72.9129,19.0274,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+722,City,Nagoya ,Chubu,NULL,Asia,AS,Japan,392,JP,JPN,136.905,35.1787,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+723,City,New Delhi,National Capital Territory of Delhi,NULL,Asia,AS,India,356,IN,IND,72.8933,19.0581,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+724,City,Osaka ,Kansai,NULL,Asia,AS,Japan,392,JP,JPN,135.532,34.6851,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+725,City,Sapporo ,Hokkaido,NULL,Asia,AS,Japan,392,JP,JPN,141.343,43.0648,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+726,City,Seoul,Seoul-jikhalsi,NULL,Asia,AS,South Korea,410,KR,KOR,126.986,37.5503,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+727,City,Shanghai,Shanghai,NULL,Asia,AS,China,156,CN,CHN,121.495,31.2418,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+728,City,Singapore,Singapore,NULL,Asia,AS,Singapore,702,SG,SGP,103.815,1.35188,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+729,City,Taipei,Taiwan,NULL,Asia,AS,Taiwan,158,TW,TWN,121.523,25.0349,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+730,City,Tehran,Tehran,NULL,Asia,AS,Iran,364,IR,IRN,51.4184,35.6968,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+731,City,Thimphu,Thimphu District,NULL,Asia,AS,Bhutan,64,BT,BTN,89.6409,27.4714,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+732,City,Tokyo,Kanto,NULL,Asia,AS,Japan,392,JP,JPN,139.75,35.6872,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+733,City,Urumqi,Xinjiang,NULL,Asia,AS,China,156,CN,CHN,87.6192,43.8247,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+734,City,Yerevan,Armenia,NULL,Asia,AS,Armenia,51,AM,ARM,44.4972,40.1569,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+735,City,Yokohama ,Kanto,NULL,Asia,AS,Japan,392,JP,JPN,139.64,35.4435,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+736,City,Amsterdam,Noord-Holland,NULL,Europe,EU,the Netherlands,528,NL,NLD,-74.1845,42.9401,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+737,City,Athens,Central Greece and Evvoia,NULL,Europe,EU,Greece ,300,GR,GRC,-84.4397,35.1376,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+738,City,Baildon,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.78565,53.8477,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+739,City,Baumholder,Rhineland-Palatinate,BB,Europe,EU,Germany ,276,DE,DEU,7.33866,49.6126,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+740,City,Berne,Bern,NULL,Europe,EU,Switzerland ,756,CH,CHE,-84.9499,40.6619,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+741,City,Bucharest,Bucuresti,NULL,Europe,EU,Romania ,642,RO,ROM,26.0889,44.4314,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+742,City,Carlisle,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-77.7519,40.2552,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+743,City,Cheshire,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-72.9098,41.5628,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+745,City,Copenhagen,Staden Kobenhavn,NULL,Europe,EU,Denmark       ,208,DK,DNK,12.567,55.6817,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+746,City,Dublin,Leinster,NULL,Europe,EU,Ireland ,372,IE,IRL,-92.2025,39.0038,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+747,City,Dusseldorf,North Rhine-Westphalia,BB,Europe,EU,Germany ,276,DE,DEU,6.77994,51.2283,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+748,City,Edinburgh,Scotland,ENG,Europe,EU,United Kingdom,826,GB,GBR,-85.9659,39.348,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+749,City,Firenze,Province of Florence,NULL,Europe,EU,Italy    ,380,IT,ITA,11.2516,43.7824,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+750,City,Giebelstadt,Bavaria,BB,Europe,EU,Germany ,276,DE,DEU,9.94381,49.6522,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+751,City,Glasgow,Scotland,ENG,Europe,EU,United Kingdom,826,GB,GBR,-90.7598,39.4591,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+752,City,Hofheim am Taunus,Hesse,BB,Europe,EU,Germany ,276,DE,DEU,8.45078,50.0862,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+753,City,Knotty Ash,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.88126,53.4173,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+754,City,Koln,North Rhine-Westphalia,BB,Europe,EU,Germany ,276,DE,DEU,6.95831,50.9413,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+755,City,Lancashire,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.8098,54.0505,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+756,City,Landstuhl,Rhineland-Palatinate,BB,Europe,EU,Germany ,276,DE,DEU,7.57157,49.4137,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+757,City,Lisbon,Lisboa Region,NULL,Europe,EU,Portugal,620,PT,PRT,-80.6692,42.6462,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+758,City,Ljubljana,Ljubljana,NULL,Europe,EU,Slovenia,705,SI,SVN,14.5081,46.0494,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+759,City,Lyon,Rhone-Alpes ,17,Europe,EU,France,250,FR,FRA,4.83489,45.7676,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+760,City,Madrid,Madrid,NULL,Europe,EU,Spain,724,ES,ESP,-93.8273,41.8779,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+761,City,Manchester,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-73.3489,42.1778,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+762,City,Marseille,Provence-Alpes-Cote d'Azur,17,Europe,EU,France,250,FR,FRA,5.38275,43.2965,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+763,City,Milan,Lombardia,NULL,Europe,EU,Italy    ,380,IT,ITA,-88.6804,39.6523,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+764,City,Moscow,Moskovskaya oblast,NULL,Europe,EU,Russia,643,RU,RUS,-108.636,43.643,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+765,City,Munich,Bavaria,BB,Europe,EU,Germany ,276,DE,DEU,-98.835,48.6712,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+766,City,Nantes,Pays de la Loire,17,Europe,EU,France,250,FR,FRA,-1.57273,47.2176,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+767,City,Nice,Alpes-Maritimes,17,Europe,EU,France,250,FR,FRA,-122.832,39.119,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+768,City,Nizhny Novgorod ,Nizhny Novgorod Oblast,NULL,Europe,EU,Russia,643,RU,RUS,44.0044,56.3299,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+769,City,Bamberg,Bavaria,BB,Europe,EU,Germany ,276,DE,DEU,10.8879,49.894,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+770,City,Ramstein,Rhineland-Palatinate,BB,Europe,EU,Germany ,276,DE,DEU,7.55754,49.4493,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+771,City,Roma,Roma,NULL,Europe,EU,Italy    ,380,IT,ITA,12.4922,41.8902,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+772,City,Saint Petersburg,Northwestern,NULL,Europe,EU,Russia,643,RU,RUS,-82.6605,27.8047,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+773,City,Stockholm,Stockholms,NULL,Europe,EU,Sweden ,752,SE,SWE,18.0717,59.3269,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+774,City,Stockport,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-2.14846,53.4078,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+775,City,Strasbourg,Bas-Rhin,17,Europe,EU,France,250,FR,FRA,7.73777,48.5791,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+776,City,Torino,Province of Turin,NULL,Europe,EU,Italy    ,380,IT,ITA,7.68811,45.0721,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+777,City,Toulouse,Midi-Pyrenees,17,Europe,EU,France,250,FR,FRA,1.44502,43.6047,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+778,City,Valletta,Valletta,NULL,Europe,EU,Malta,470,MT,MLT,14.5065,35.9038,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+779,City,Venezia,Venice,NULL,Europe,EU,Italy    ,380,IT,ITA,12.3384,45.4341,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+780,City,Warsaw,Warszawa,NULL,Europe,EU,Poland ,616,PL,POL,-84.3333,40.5754,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+781,City,West Yorkshire,England ,ENG,Europe,EU,United Kingdom,826,GB,GBR,-1.55986,53.8102,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+782,City,Albany,New York,AL,North America,NA,United States,840,US,USA,-80.0326,40.9983,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+783,City,Alexandria,Virginia,AL,North America,NA,United States,840,US,USA,-79.1436,38.5309,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+784,City,Anchorage,Alaska,AL,North America,NA,United States,840,US,USA,-149.628,61.1147,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+785,City,Annapolis,Maryland,AL,North America,NA,United States,840,US,USA,-76.5427,38.9884,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+786,City,Appleton,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.4981,44.2772,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+787,City,Arlington,Texas,AL,North America,NA,United States,840,US,USA,-84.7898,37.2916,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+788,City,Atlantic City ,New Jersey,AL,North America,NA,United States,840,US,USA,-74.4341,39.361,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+789,City,Attleboro,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.2998,41.9342,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+790,City,Aurora,Colorado,AL,North America,NA,United States,840,US,USA,-96.9003,40.6425,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+791,City,Austin,Texas,AL,North America,NA,United States,840,US,USA,-97.7045,30.4302,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+792,City,Back River,Maryland,AL,North America,NA,United States,840,US,USA,-76.4935,39.3007,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+793,City,Bacliff,Texas,AL,North America,NA,United States,840,US,USA,-94.9918,29.5111,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+794,City,Baltimore,Maryland,AL,North America,NA,United States,840,US,USA,-76.614,39.3082,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+795,City,Bangor,Maine,AL,North America,NA,United States,840,US,USA,-69.8147,44.5877,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+796,City,Bar Harbor,Maine,AL,North America,NA,United States,840,US,USA,-68.2111,44.3909,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+797,City,Bayonne ,New Jersey,AL,North America,NA,United States,840,US,USA,-74.111,40.6621,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+798,City,Beaumont,Texas,AL,North America,NA,United States,840,US,USA,-95.4036,30.2901,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+799,City,Berthoud,Colorado,AL,North America,NA,United States,840,US,USA,-105.076,40.3083,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+800,City,Bethesda,Maryland,AL,North America,NA,United States,840,US,USA,-77.1045,38.9931,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+801,City,Bridgeport,Connecticut,AL,North America,NA,United States,840,US,USA,-73.1978,41.1623,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+802,City,Boston,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.0708,42.348,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+803,City,Boulder,Colorado,AL,North America,NA,United States,840,US,USA,-105.244,40.0275,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+804,City,Brooklyn,New York,AL,North America,NA,United States,840,US,USA,-74.3026,40.688,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+805,City,Buffalo,New York,AL,North America,NA,United States,840,US,USA,-79.3838,42.8935,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+806,City,Burlington,Wisconsin,AL,North America,NA,United States,840,US,USA,-76.8688,41.7063,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+807,City,Cape Canaveral,Florida,AL,North America,NA,United States,840,US,USA,-80.6068,28.3965,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+808,City,Cape May,New Jersey,AL,North America,NA,United States,840,US,USA,-74.9302,38.9495,NULL,NULL,NULL,NULL,20:14.9,20:14.9
+809,City,Castle Rock,Colorado,AL,North America,NA,United States,840,US,USA,-104.45,39.5823,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+810,City,Charleston ,South Carolina,AL,North America,NA,United States,840,US,USA,-80.9365,35.2092,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+811,City,Charlottesville ,Virginia,AL,North America,NA,United States,840,US,USA,-78.4858,38.0473,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+812,City,Cheney,Washington,AL,North America,NA,United States,840,US,USA,-117.554,47.5417,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+813,City,Cle Elum,Washington,AL,North America,NA,United States,840,US,USA,-120.933,47.1938,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+814,City,Clifton,New Jersey,AL,North America,NA,United States,840,US,USA,-74.4474,40.7272,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+815,City,Dallas,Texas,AL,North America,NA,United States,840,US,USA,-96.7704,32.9167,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+816,City,Darien,Connecticut,AL,North America,NA,United States,840,US,USA,-79.9319,40.9238,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+817,City,Denton,Texas,AL,North America,NA,United States,840,US,USA,-95.9417,33.6627,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+818,City,Denver,Colorado,AL,North America,NA,United States,840,US,USA,-104.567,39.7191,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+819,City,Desoto,Texas,AL,North America,NA,United States,840,US,USA,-96.8429,32.6122,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+820,City,East Orange ,New Jersey,AL,North America,NA,United States,840,US,USA,-74.2138,40.7668,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+821,City,East Troy,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.4104,42.7903,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+822,City,Edgerton,Wisconsin,AL,North America,NA,United States,840,US,USA,-89.6169,42.7739,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+823,City,Elmira,New York,AL,North America,NA,United States,840,US,USA,-76.8084,42.1001,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+824,City,Englewood,Colorado,AL,North America,NA,United States,840,US,USA,-101.762,39.563,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+825,City,Fall City,Washington,AL,North America,NA,United States,840,US,USA,-121.914,47.5833,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+826,City,Falmouth,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.0071,42.8156,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+827,City,Fond du Lac,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.4486,43.7687,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+828,City,Fort Atkinson,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.8495,42.919,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+829,City,Fort Collins,Colorado,AL,North America,NA,United States,840,US,USA,-105.092,40.5737,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+830,City,Fort Lauderdale,Florida,AL,North America,NA,United States,840,US,USA,-80.1676,26.1501,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+831,City,Fort Worth,Texas,AL,North America,NA,United States,840,US,USA,-97.3227,32.759,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+832,City,Framingham,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.4229,42.2991,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+833,City,Fredericksburg,Virginia,AL,North America,NA,United States,840,US,USA,-79.2267,37.7308,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+834,City,Georgetown,Texas,AL,North America,NA,United States,840,US,USA,-89.0473,34.3164,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+835,City,Germantown,Maryland,AL,North America,NA,United States,840,US,USA,-83.47,39.7624,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+836,City,Grand Junction,Colorado,AL,North America,NA,United States,840,US,USA,-107.734,39.2107,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+837,City,Grand Prairie,Texas,AL,North America,NA,United States,840,US,USA,-97.0375,32.7614,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+838,City,Granger,Washington,AL,North America,NA,United States,840,US,USA,-91.3519,42.3226,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+839,City,Greeley,Colorado,AL,North America,NA,United States,840,US,USA,-104.729,40.415,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+840,City,Green Bay,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.0327,44.5064,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+841,City,Greenville,South Carolina,AL,North America,NA,United States,840,US,USA,-82.6121,35.5443,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+842,City,Hackensack ,New Jersey,AL,North America,NA,United States,840,US,USA,-74.0395,40.8956,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+843,City,Hartford,Connecticut,AL,North America,NA,United States,840,US,USA,-73.7616,41.7418,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+844,City,Haverhill,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.0954,42.7713,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+845,City,Hillsboro,Texas,AL,North America,NA,United States,840,US,USA,-116.936,44.2968,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+846,City,Hingham,Massachusetts,AL,North America,NA,United States,840,US,USA,-70.9109,42.1941,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+847,City,Hoboken ,New Jersey,AL,North America,NA,United States,840,US,USA,-74.0306,40.7387,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+848,City,Holyoke,Massachusetts,AL,North America,NA,United States,840,US,USA,-76.3302,41.9905,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+849,City,Houston,Texas,AL,North America,NA,United States,840,US,USA,-95.419,29.8241,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+850,City,Howard,Maryland,AL,North America,NA,United States,840,US,USA,-92.0179,40.6217,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+851,City,Humble,Texas,AL,North America,NA,United States,840,US,USA,-95.2508,29.995,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+852,City,Ithaca,New York,AL,North America,NA,United States,840,US,USA,-76.8416,42.495,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+853,City,Jacksonville,Florida,AL,North America,NA,United States,840,US,USA,-82.1677,30.6894,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+854,City,Jersey City,New Jersey,AL,North America,NA,United States,840,US,USA,-74.0528,40.718,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+855,City,Kennebunkport,Maine,AL,North America,NA,United States,840,US,USA,-70.4757,43.362,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+856,City,Kennewick,Washington,AL,North America,NA,United States,840,US,USA,-119.174,46.2075,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+857,City,Key West,Florida,AL,North America,NA,United States,840,US,USA,-81.7815,24.5614,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+858,City,La Porte,Texas,AL,North America,NA,United States,840,US,USA,-91.127,35.2932,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+859,City,Lafayette,Colorado,AL,North America,NA,United States,840,US,USA,-94.74,34.0381,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+860,City,Lakeland,Florida,AL,North America,NA,United States,840,US,USA,-81.9597,28.0351,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+861,City,Leominster,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.7471,42.523,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+862,City,Lewiston,Maine,AL,North America,NA,United States,840,US,USA,-86.5066,44.8154,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+863,City,Lewisville,Texas,AL,North America,NA,United States,840,US,USA,-97.1897,33.3931,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+864,City,Litchfield County,Connecticut,AL,North America,NA,United States,840,US,USA,-73.1994,41.748,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+865,City,Littleton,Colorado,AL,North America,NA,United States,840,US,USA,-98.2571,40.2923,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+866,City,Longview,Texas,AL,North America,NA,United States,840,US,USA,-101.314,35.6754,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+867,City,Loveland,Colorado,AL,North America,NA,United States,840,US,USA,-98.2363,40.0264,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+868,City,Lowell,Massachusetts,AL,North America,NA,United States,840,US,USA,-74.3154,42.0849,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+869,City,Lynn,Massachusetts,AL,North America,NA,United States,840,US,USA,-72.53,41.861,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+870,City,Madison,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.7883,41.7568,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+871,City,Manitowoc,Wisconsin,AL,North America,NA,United States,840,US,USA,-87.6891,44.0861,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+872,City,Marshall,Texas,AL,North America,NA,United States,840,US,USA,-90.7313,40.2199,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+873,City,Martinsville ,Virginia,AL,North America,NA,United States,840,US,USA,-81.4382,37.3716,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+874,City,Menasha,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.4166,44.2121,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+875,City,Miami,Florida,AL,North America,NA,United States,840,US,USA,-80.4842,25.9336,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+876,City,Midland,Texas,AL,North America,NA,United States,840,US,USA,-96.1112,35.5951,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+877,City,Milliken,Colorado,AL,North America,NA,United States,840,US,USA,-104.834,40.3273,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+878,City,Milwaukee,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.0135,43.069,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+879,City,Minden,Texas,AL,North America,NA,United States,840,US,USA,-106.144,36.0305,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+880,City,Montclair ,New Jersey,AL,North America,NA,United States,840,US,USA,-91.2302,38.179,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+881,City,Montreal,Quebec,AB,North America,NA,Canada,124,CA,CAN,-73.6291,45.5355,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+882,City,Morristown ,New Jersey,AL,North America,NA,United States,840,US,USA,-76.8171,39.6871,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+883,City,Nantucket,Massachusetts,AL,North America,NA,United States,840,US,USA,-70.0985,41.281,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+884,City,Naples,Florida,AL,North America,NA,United States,840,US,USA,-81.7787,26.1979,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+885,City,New Bedford,Massachusetts,AL,North America,NA,United States,840,US,USA,-70.9328,41.6598,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+886,City,New Brunswick ,New Jersey,AL,North America,NA,United States,840,US,USA,-74.4531,40.4884,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+887,City,New Castle,Colorado,AL,North America,NA,United States,840,US,USA,-77.4789,40.032,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+888,City,New Haven ,Connecticut,AL,North America,NA,United States,840,US,USA,-73.8181,41.2734,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+889,City,New London,Connecticut,AL,North America,NA,United States,840,US,USA,-77.4985,42.1301,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+890,City,New York,New York,AL,North America,NA,United States,840,US,USA,-74.004,40.7654,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+891,City,Newark,New Jersey,AL,North America,NA,United States,840,US,USA,-80.8704,40.0609,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+892,City,Norfolk,Virginia,AL,North America,NA,United States,840,US,USA,-78.153,37.3588,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+893,City,North Bend,Washington,AL,North America,NA,United States,840,US,USA,-123.841,44.0075,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+894,City,North Harford,Maryland,AL,North America,NA,United States,840,US,USA,-76.3641,39.5837,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+895,City,Northampton,Massachusetts,AL,North America,NA,United States,840,US,USA,-73.2094,42.003,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+896,City,Old Saybrook,Connecticut,AL,North America,NA,United States,840,US,USA,-72.3833,41.2982,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+897,City,Orange,Texas,AL,North America,NA,United States,840,US,USA,-111.573,34.453,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+898,City,Oregon,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.2771,41.9764,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+899,City,Orlando,Florida,AL,North America,NA,United States,840,US,USA,-81.3723,28.5388,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+900,City,Orono,Maine,AL,North America,NA,United States,840,US,USA,-68.7343,44.8932,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+901,City,Oshkosh,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.5558,44.0156,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+902,City,Oswego,New York,AL,North America,NA,United States,840,US,USA,-83.4608,42.4163,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+903,City,Ottawa,Ontario,AB,North America,NA,Canada,124,CA,CAN,-90.9642,40.3521,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+904,City,Parker,Colorado,AL,North America,NA,United States,840,US,USA,-106.861,38.2787,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+905,City,Parkville,Maryland,AL,North America,NA,United States,840,US,USA,-88.6407,39.2632,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+906,City,Pasadena,Texas,AL,North America,NA,United States,840,US,USA,-111.817,33.2798,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+907,City,Passaic ,New Jersey,AL,North America,NA,United States,840,US,USA,-74.1295,40.8551,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+908,City,Paterson,New Jersey,AL,North America,NA,United States,840,US,USA,-74.1581,40.9139,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+909,City,Pittsfield,Massachusetts,AL,North America,NA,United States,840,US,USA,-74.5051,42.4156,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+910,City,Plano,Texas,AL,North America,NA,United States,840,US,USA,-96.709,33.0855,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+911,City,Plattsburgh,New York,AL,North America,NA,United States,840,US,USA,-73.4773,44.6945,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+912,City,Poestenkill,New York,AL,North America,NA,United States,840,US,USA,-73.5706,42.6907,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+913,City,Port Washington,Wisconsin,AL,North America,NA,United States,840,US,USA,-77.4255,41.4989,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+914,City,Provincetown,Massachusetts,AL,North America,NA,United States,840,US,USA,-70.1963,42.0376,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+915,City,Queen Anne's County,Maryland,AL,North America,NA,United States,840,US,USA,-76.1604,38.9883,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+916,City,Queens,New York,AL,North America,NA,United States,840,US,USA,-73.7973,40.7501,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+917,City,Quincy,Massachusetts,AL,North America,NA,United States,840,US,USA,-82.4875,40.959,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+918,City,Racine,Wisconsin,AL,North America,NA,United States,840,US,USA,-87.8214,42.7298,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+919,City,Richardson,Texas,AL,North America,NA,United States,840,US,USA,-96.7144,32.9696,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+920,City,Ridgely,Maryland,AL,North America,NA,United States,840,US,USA,-75.9099,38.9356,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+921,City,Roanoke,Virginia,AL,North America,NA,United States,840,US,USA,-80.9659,37.1385,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+922,City,Rochester,New York,AL,North America,NA,United States,840,US,USA,-79.7021,43.1961,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+923,City,Round Rock,Texas,AL,North America,NA,United States,840,US,USA,-97.6828,30.5218,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+924,City,Russellville,Texas,AL,North America,NA,United States,840,US,USA,-91.5807,35.4412,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+925,City,San Antonio,Texas,AL,North America,NA,United States,840,US,USA,-98.4652,29.4979,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+926,City,Sebring,Florida,AL,North America,NA,United States,840,US,USA,-81.3283,31.6322,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+927,City,Sedalia,Colorado,AL,North America,NA,United States,840,US,USA,-95.7185,38.8483,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+928,City,Sheboygan,Wisconsin,AL,North America,NA,United States,840,US,USA,-87.7328,43.7402,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+929,City,Shreveport,Texas,AL,North America,NA,United States,840,US,USA,-93.7627,32.4754,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+930,City,Snoqualmie,Washington,AL,North America,NA,United States,840,US,USA,-121.846,47.5285,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+931,City,Somerville,Massachusetts,AL,North America,NA,United States,840,US,USA,-74.0135,41.0377,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+932,City,South Portland,Maine,AL,North America,NA,United States,840,US,USA,-70.3099,43.6325,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+933,City,Spring,Texas,AL,North America,NA,United States,840,US,USA,-95.4736,30.0812,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+934,City,Stoughton,Wisconsin,AL,North America,NA,United States,840,US,USA,-75.303,42.3202,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+935,City,Sunnyside,Washington,AL,North America,NA,United States,840,US,USA,-108.492,44.925,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+936,City,Syracuse,New York,AL,North America,NA,United States,840,US,USA,-77.2495,42.9371,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+937,City,Tallahassee,Florida,AL,North America,NA,United States,840,US,USA,-84.2738,30.4632,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+938,City,Tampa,Florida,AL,North America,NA,United States,840,US,USA,-82.4957,27.9804,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+939,City,Texas City,Texas,AL,North America,NA,United States,840,US,USA,-94.957,29.3948,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+940,City,Thornton,Colorado,AL,North America,NA,United States,840,US,USA,-103.896,39.8903,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+941,City,Toppenish,Washington,AL,North America,NA,United States,840,US,USA,-120.334,46.3758,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+942,City,Toronto,Ontario,AB,North America,NA,Canada,124,CA,CAN,-79.3956,43.6664,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+943,City,Trenton,New Jersey,AL,North America,NA,United States,840,US,USA,-77.1562,40.0304,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+944,City,Veradale,Washington,AL,North America,NA,United States,840,US,USA,-117.194,47.6428,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+945,City,Vineland,New Jersey,AL,North America,NA,United States,840,US,USA,-75.0288,39.4878,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+946,City,Virginia Beach,Virginia,AL,North America,NA,United States,840,US,USA,-76.1023,36.836,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+947,City,Wapato,Washington,AL,North America,NA,United States,840,US,USA,-120.425,46.4464,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+948,City,Waterbury,Connecticut,AL,North America,NA,United States,840,US,USA,-73.0188,41.7752,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+949,City,Waukesha,Wisconsin,AL,North America,NA,United States,840,US,USA,-88.2328,43.0172,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+950,City,Wheat Ridge,Colorado,AL,North America,NA,United States,840,US,USA,-105.109,39.7799,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+951,City,Winchester,Virginia,AL,North America,NA,United States,840,US,USA,-79.0599,39.2422,NULL,NULL,NULL,NULL,20:15.0,20:15.0
+952,City,Worcester,Massachusetts,AL,North America,NA,United States,840,US,USA,-71.9085,42.2074,NULL,NULL,NULL,NULL,20:15.0,20:15.0

@@ -1,0 +1,1632 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9300.16.0606.1812                                -->
+<workbook source-build='9.3.3 (9300.16.0606.1812)' source-platform='win' version='9.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='DimChannel+ (Contoso_Retail_BI_Test)' inline='true' name='sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b' version='9.3'>
+      <connection authentication='sspi' class='sqlserver' dbname='Contoso_Retail_BI_Test' minimum-driver-version='SQL Server Native Client 10.0' odbc-native-protocol='yes' one-time-sql='' server='DESKTOP-GL6C1CH'>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[FactSales].[DateSK]' />
+              <expression op='[DimDate].[DateSK]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[FactSales].[ChannelKey]' />
+                <expression op='[DimChannel].[ChannelKey]' />
+              </expression>
+            </clause>
+            <relation name='FactSales' table='[dbo].[FactSales]' type='table' />
+            <relation name='DimChannel' table='[dbo].[DimChannel]' type='table' />
+          </relation>
+          <relation name='DimDate' table='[dbo].[DimDate]' type='table' />
+        </relation>
+        <cols>
+          <map key='[AsiaSeason]' value='[DimDate].[AsiaSeason]' />
+          <map key='[CalendarDayOfWeekLabel]' value='[DimDate].[CalendarDayOfWeekLabel]' />
+          <map key='[CalendarDayOfWeek]' value='[DimDate].[CalendarDayOfWeek]' />
+          <map key='[CalendarMonthAbbreviation]' value='[DimDate].[CalendarMonthAbbreviation]' />
+          <map key='[CalendarMonthLabel]' value='[DimDate].[CalendarMonthLabel]' />
+          <map key='[CalendarMonth]' value='[DimDate].[CalendarMonth]' />
+          <map key='[CalendarQuarterLabel]' value='[DimDate].[CalendarQuarterLabel]' />
+          <map key='[CalendarQuarter]' value='[DimDate].[CalendarQuarter]' />
+          <map key='[CalendarWeekLabel]' value='[DimDate].[CalendarWeekLabel]' />
+          <map key='[CalendarWeek]' value='[DimDate].[CalendarWeek]' />
+          <map key='[CalendarYearDay]' value='[DimDate].[CalendarYearDay]' />
+          <map key='[CalendarYearLabel]' value='[DimDate].[CalendarYearLabel]' />
+          <map key='[CalendarYearMonth]' value='[DimDate].[CalendarYearMonth]' />
+          <map key='[CalendarYearQuarter]' value='[DimDate].[CalendarYearQuarter]' />
+          <map key='[CalendarYearWeek]' value='[DimDate].[CalendarYearWeek]' />
+          <map key='[CalendarYear]' value='[DimDate].[CalendarYear]' />
+          <map key='[ChannelDescription]' value='[DimChannel].[ChannelDescription]' />
+          <map key='[ChannelKey (FactSales)]' value='[FactSales].[ChannelKey]' />
+          <map key='[ChannelKey]' value='[DimChannel].[ChannelKey]' />
+          <map key='[ChannelLabel]' value='[DimChannel].[ChannelLabel]' />
+          <map key='[ChannelName]' value='[DimChannel].[ChannelName]' />
+          <map key='[CurrencyKey]' value='[FactSales].[CurrencyKey]' />
+          <map key='[DI_Create_Date (DimChannel)]' value='[DimChannel].[DI_Create_Date]' />
+          <map key='[DI_Create_Date]' value='[FactSales].[DI_Create_Date]' />
+          <map key='[DI_Job_ID (DimChannel)]' value='[DimChannel].[DI_Job_ID]' />
+          <map key='[DI_Job_ID]' value='[FactSales].[DI_Job_ID]' />
+          <map key='[DI_Modified_Date (DimChannel)]' value='[DimChannel].[DI_Modified_Date]' />
+          <map key='[DI_Modified_Date]' value='[FactSales].[DI_Modified_Date]' />
+          <map key='[DateAK]' value='[DimDate].[DateAK]' />
+          <map key='[DateKey]' value='[FactSales].[DateKey]' />
+          <map key='[DateSK (DimDate)]' value='[DimDate].[DateSK]' />
+          <map key='[DateSK]' value='[FactSales].[DateSK]' />
+          <map key='[DatetimeAK]' value='[DimDate].[DatetimeAK]' />
+          <map key='[DayNumberOfYear]' value='[DimDate].[DayNumberOfYear]' />
+          <map key='[DiscountAmount]' value='[FactSales].[DiscountAmount]' />
+          <map key='[EuropeSeason]' value='[DimDate].[EuropeSeason]' />
+          <map key='[GeographyKey]' value='[FactSales].[GeographyKey]' />
+          <map key='[IsWorkDay]' value='[DimDate].[IsWorkDay]' />
+          <map key='[NorthAmericaSeason]' value='[DimDate].[NorthAmericaSeason]' />
+          <map key='[ProductKey]' value='[FactSales].[ProductKey]' />
+          <map key='[PromotionKey]' value='[FactSales].[PromotionKey]' />
+          <map key='[ReturnAmount]' value='[FactSales].[ReturnAmount]' />
+          <map key='[ReturnQuantity]' value='[FactSales].[ReturnQuantity]' />
+          <map key='[SOR_ID (DimChannel)]' value='[DimChannel].[SOR_ID]' />
+          <map key='[SOR_ID]' value='[FactSales].[SOR_ID]' />
+          <map key='[SOR_LoadDate (DimChannel)]' value='[DimChannel].[SOR_LoadDate]' />
+          <map key='[SOR_LoadDate]' value='[FactSales].[SOR_LoadDate]' />
+          <map key='[SOR_UpdateDate (DimChannel)]' value='[DimChannel].[SOR_UpdateDate]' />
+          <map key='[SOR_UpdateDate]' value='[FactSales].[SOR_UpdateDate]' />
+          <map key='[SalesAmount]' value='[FactSales].[SalesAmount]' />
+          <map key='[SalesKey]' value='[FactSales].[SalesKey]' />
+          <map key='[SalesQuantity]' value='[FactSales].[SalesQuantity]' />
+          <map key='[StoreKey]' value='[FactSales].[StoreKey]' />
+          <map key='[TotalCost]' value='[FactSales].[TotalCost]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>SalesKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SalesKey]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>SalesKey</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateKey</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DateKey]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>DateKey</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateSK</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[DateSK]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>DateSK</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChannelKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ChannelKey (FactSales)]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>ChannelKey</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StoreKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[StoreKey]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>StoreKey</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProductKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ProductKey]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>ProductKey</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PromotionKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[PromotionKey]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>PromotionKey</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CurrencyKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CurrencyKey]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>CurrencyKey</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GeographyKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[GeographyKey]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>GeographyKey</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SalesQuantity</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SalesQuantity]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>SalesQuantity</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReturnQuantity</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ReturnQuantity]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>ReturnQuantity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReturnAmount</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ReturnAmount]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>ReturnAmount</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiscountAmount</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[DiscountAmount]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>DiscountAmount</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalCost</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[TotalCost]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>TotalCost</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <scale>2</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SalesAmount</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SalesAmount]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>SalesAmount</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <scale>2</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOR_LoadDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[SOR_LoadDate]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>SOR_LoadDate</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOR_UpdateDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[SOR_UpdateDate]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>SOR_UpdateDate</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOR_ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SOR_ID]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>SOR_ID</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI_Job_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DI_Job_ID]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>DI_Job_ID</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI_Create_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DI_Create_Date]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>DI_Create_Date</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI_Modified_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DI_Modified_Date]</local-name>
+            <parent-name>[FactSales]</parent-name>
+            <remote-alias>DI_Modified_Date</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChannelKey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ChannelKey]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>ChannelKey</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChannelLabel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ChannelLabel]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>ChannelLabel</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChannelName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ChannelName]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>ChannelName</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChannelDescription</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ChannelDescription]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>ChannelDescription</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOR_LoadDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[SOR_LoadDate (DimChannel)]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>SOR_LoadDate</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOR_UpdateDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[SOR_UpdateDate (DimChannel)]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>SOR_UpdateDate</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOR_ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SOR_ID (DimChannel)]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>SOR_ID</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI_Job_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DI_Job_ID (DimChannel)]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>DI_Job_ID</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI_Create_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DI_Create_Date (DimChannel)]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>DI_Create_Date</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI_Modified_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DI_Modified_Date (DimChannel)]</local-name>
+            <parent-name>[DimChannel]</parent-name>
+            <remote-alias>DI_Modified_Date</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateSK</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[DateSK (DimDate)]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>DateSK</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateAK</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DateAK]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>DateAK</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DatetimeAK</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DatetimeAK]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>DatetimeAK</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarYear</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarYear]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarYear</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarYearLabel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CalendarYearLabel]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarYearLabel</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>30</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarQuarter</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarQuarter]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarQuarter</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarYearQuarter</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarYearQuarter]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarYearQuarter</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarQuarterLabel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CalendarQuarterLabel]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarQuarterLabel</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>31</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarMonth</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarMonth]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarMonth</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarYearMonth</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarYearMonth]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarYearMonth</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarMonthLabel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CalendarMonthLabel]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarMonthLabel</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>30</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarMonthAbbreviation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CalendarMonthAbbreviation]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarMonthAbbreviation</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>3</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayNumberOfYear</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[DayNumberOfYear]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>DayNumberOfYear</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarYearDay</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarYearDay]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarYearDay</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarWeek</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarWeek]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarWeek</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarWeekLabel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CalendarWeekLabel]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarWeekLabel</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>30</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarYearWeek</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarYearWeek]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarYearWeek</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarDayOfWeek</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CalendarDayOfWeek]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarDayOfWeek</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CalendarDayOfWeekLabel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CalendarDayOfWeekLabel]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>CalendarDayOfWeekLabel</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>3</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsWorkDay</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[IsWorkDay]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>IsWorkDay</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NorthAmericaSeason</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NorthAmericaSeason]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>NorthAmericaSeason</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EuropeSeason</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EuropeSeason]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>EuropeSeason</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AsiaSeason</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AsiaSeason]</local-name>
+            <parent-name>[DimDate]</parent-name>
+            <remote-alias>AsiaSeason</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Asia Season' datatype='string' name='[AsiaSeason]' role='dimension' type='nominal' />
+      <column caption='Profit' datatype='real' name='[Calculation_1263822685792272385]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='SUM([SalesAmount]) - SUM([TotalCost])' />
+      </column>
+      <column caption='Calendar Day Of Week Label' datatype='string' name='[CalendarDayOfWeekLabel]' role='dimension' type='nominal' />
+      <column caption='Calendar Day Of Week' datatype='integer' name='[CalendarDayOfWeek]' role='dimension' type='quantitative' />
+      <column caption='Calendar Month Abbreviation' datatype='string' name='[CalendarMonthAbbreviation]' role='dimension' type='nominal' />
+      <column caption='Calendar Month Label' datatype='string' name='[CalendarMonthLabel]' role='dimension' type='nominal' />
+      <column caption='Calendar Month' datatype='integer' name='[CalendarMonth]' role='dimension' type='quantitative' />
+      <column caption='Calendar Quarter Label' datatype='string' name='[CalendarQuarterLabel]' role='dimension' type='nominal' />
+      <column caption='Calendar Quarter' datatype='integer' name='[CalendarQuarter]' role='dimension' type='quantitative' />
+      <column caption='Calendar Week Label' datatype='string' name='[CalendarWeekLabel]' role='dimension' type='nominal' />
+      <column caption='Calendar Week' datatype='integer' name='[CalendarWeek]' role='dimension' type='quantitative' />
+      <column caption='Calendar Year Day' datatype='integer' name='[CalendarYearDay]' role='dimension' type='quantitative' />
+      <column caption='Calendar Year Label' datatype='string' name='[CalendarYearLabel]' role='dimension' type='nominal' />
+      <column caption='Calendar Year Month' datatype='integer' name='[CalendarYearMonth]' role='dimension' type='quantitative' />
+      <column caption='Calendar Year Quarter' datatype='integer' name='[CalendarYearQuarter]' role='dimension' type='quantitative' />
+      <column caption='Calendar Year Week' datatype='integer' name='[CalendarYearWeek]' role='dimension' type='quantitative' />
+      <column caption='Calendar Year' datatype='integer' name='[CalendarYear]' role='dimension' type='quantitative' />
+      <column caption='Channel Description' datatype='string' name='[ChannelDescription]' role='dimension' type='nominal' />
+      <column caption='Channel Key1' datatype='integer' name='[ChannelKey]' role='dimension' type='ordinal' />
+      <column caption='Channel Label' datatype='string' name='[ChannelLabel]' role='dimension' type='nominal' />
+      <column caption='Channel Name' datatype='string' name='[ChannelName]' role='dimension' type='nominal' />
+      <column caption='Currency Key' datatype='integer' name='[CurrencyKey]' role='dimension' type='ordinal' />
+      <column caption='DI Create Date (DimChannel)' datatype='datetime' name='[DI_Create_Date (DimChannel)]' role='dimension' type='ordinal' />
+      <column caption='DI Create Date' datatype='datetime' name='[DI_Create_Date]' role='dimension' type='ordinal' />
+      <column caption='DI Job ID (DimChannel)' datatype='string' name='[DI_Job_ID (DimChannel)]' role='dimension' type='nominal' />
+      <column caption='DI Job ID' datatype='string' name='[DI_Job_ID]' role='dimension' type='nominal' />
+      <column caption='DI Modified Date (DimChannel)' datatype='datetime' name='[DI_Modified_Date (DimChannel)]' role='dimension' type='ordinal' />
+      <column caption='DI Modified Date' datatype='datetime' name='[DI_Modified_Date]' role='dimension' type='ordinal' />
+      <column caption='Date AK' datatype='date' name='[DateAK]' role='dimension' type='ordinal' />
+      <column caption='Date Key' datatype='datetime' name='[DateKey]' role='dimension' type='ordinal' />
+      <column caption='Date SK' datatype='integer' name='[DateSK]' role='measure' type='quantitative' />
+      <column caption='Datetime AK' datatype='datetime' name='[DatetimeAK]' role='dimension' type='ordinal' />
+      <column caption='Day Number Of Year' datatype='integer' name='[DayNumberOfYear]' role='dimension' type='quantitative' />
+      <column caption='Discount Amount' datatype='real' name='[DiscountAmount]' role='measure' type='quantitative' />
+      <column caption='Europe Season' datatype='string' name='[EuropeSeason]' role='dimension' type='nominal' />
+      <column caption='Geography Key' datatype='integer' name='[GeographyKey]' role='dimension' type='ordinal' />
+      <column caption='Is Work Day' datatype='integer' name='[IsWorkDay]' role='dimension' type='quantitative' />
+      <column caption='North America Season' datatype='string' name='[NorthAmericaSeason]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Product Key' datatype='integer' name='[ProductKey]' role='dimension' type='ordinal' />
+      <column caption='Promotion Key' datatype='integer' name='[PromotionKey]' role='dimension' type='ordinal' />
+      <column caption='Return Amount' datatype='real' name='[ReturnAmount]' role='measure' type='quantitative' />
+      <column caption='Return Quantity' datatype='integer' name='[ReturnQuantity]' role='measure' type='quantitative' />
+      <column caption='SOR ID (DimChannel)' datatype='integer' name='[SOR_ID (DimChannel)]' role='dimension' type='ordinal' />
+      <column caption='Sor Id' datatype='integer' name='[SOR_ID]' role='dimension' type='ordinal' />
+      <column caption='SOR LoadDate (DimChannel)' datatype='datetime' name='[SOR_LoadDate (DimChannel)]' role='dimension' type='ordinal' />
+      <column caption='SOR LoadDate' datatype='datetime' name='[SOR_LoadDate]' role='dimension' type='ordinal' />
+      <column caption='SOR UpdateDate (DimChannel)' datatype='datetime' name='[SOR_UpdateDate (DimChannel)]' role='dimension' type='ordinal' />
+      <column caption='SOR UpdateDate' datatype='datetime' name='[SOR_UpdateDate]' role='dimension' type='ordinal' />
+      <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+      <column caption='Sales Key' datatype='integer' name='[SalesKey]' role='dimension' type='ordinal' />
+      <column caption='Sales Quantity' datatype='integer' name='[SalesQuantity]' role='measure' type='quantitative' />
+      <column caption='Store Key' datatype='integer' name='[StoreKey]' role='dimension' type='ordinal' />
+      <column caption='Total Cost' datatype='real' name='[TotalCost]' role='measure' type='quantitative' />
+      <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1263822685792272385]' derivation='User' name='[usr:Calculation_1263822685792272385:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.583248' measure-ordering='alphabetic' measure-percentage='0.416752' show-aliased-fields='true' show-hidden-fields='true' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[usr:Calculation_1263822685792272385:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[sum:SalesAmount:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='SalesByChannel'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DimChannel+ (Contoso_Retail_BI_Test)' name='sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b' />
+          </datasources>
+          <datasource-dependencies datasource='sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b'>
+            <column caption='Profit' datatype='real' name='[Calculation_1263822685792272385]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='SUM([SalesAmount]) - SUM([TotalCost])' />
+            </column>
+            <column caption='Channel Name' datatype='string' name='[ChannelName]' role='dimension' type='nominal' />
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column caption='Total Cost' datatype='real' name='[TotalCost]' role='measure' type='quantitative' />
+            <column-instance column='[ChannelName]' derivation='None' name='[none:ChannelName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1263822685792272385]' derivation='User' name='[usr:Calculation_1263822685792272385:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[usr:Calculation_1263822685792272385:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[sum:SalesAmount:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]' value='195' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Channel Name:&#9;</run>
+                <run bold='true'>&lt;[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:ChannelName:nk]&gt;</run>
+                <run fontcolor='#787878'>&#10;Sales:&#9;</run>
+                <run bold='true'>&lt;[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[Multiple Values]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[Multiple Values]</rows>
+        <cols>([sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:ChannelName:nk] / [sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names])</cols>
+        <tooltip-style tooltip-mode='sticky' />
+      </table>
+    </worksheet>
+    <worksheet name='SalesByTime'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DimChannel+ (Contoso_Retail_BI_Test)' name='sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b' />
+          </datasources>
+          <datasource-dependencies datasource='sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b'>
+            <column caption='Profit' datatype='real' name='[Calculation_1263822685792272385]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='SUM([SalesAmount]) - SUM([TotalCost])' />
+            </column>
+            <column caption='Calendar Month Abbreviation' datatype='string' name='[CalendarMonthAbbreviation]' role='dimension' type='nominal' />
+            <column caption='Calendar Quarter Label' datatype='string' name='[CalendarQuarterLabel]' role='dimension' type='nominal' />
+            <column caption='Calendar Year' datatype='integer' name='[CalendarYear]' role='dimension' type='quantitative' />
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column caption='Total Cost' datatype='real' name='[TotalCost]' role='measure' type='quantitative' />
+            <column-instance column='[CalendarMonthAbbreviation]' derivation='None' name='[none:CalendarMonthAbbreviation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CalendarQuarterLabel]' derivation='None' name='[none:CalendarQuarterLabel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CalendarYear]' derivation='None' name='[none:CalendarYear:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1263822685792272385]' derivation='User' name='[usr:Calculation_1263822685792272385:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarQuarterLabel:nk]' value='138' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[usr:Calculation_1263822685792272385:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>(([sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarQuarterLabel:nk] / [sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarMonthAbbreviation:nk]) * [sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarYear:qk])</rows>
+        <cols>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[sum:SalesAmount:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#b5ead7' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='border-color' value='#000000' />
+          <format attr='border-style' value='solid' />
+          <format attr='border-width' value='3' />
+        </style-rule>
+      </style>
+      <size maxheight='1300' maxwidth='1900' minheight='1100' minwidth='1900' />
+      <zones>
+        <zone h='48875' id='1' name='SalesByChannel' show-title='true' w='101600' x='-2000' y='50125' />
+        <zone h='8171' id='2' name='SalesByChannel' pane-specification-id='0' param='[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]' type='color' w='16000' x='50316' y='67052' />
+        <zone h='51776' id='3' name='SalesByTime' show-title='true' w='101105' x='-737' y='-1865' />
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' maximized='true' name='SalesByChannel'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+            <card pane-specification-id='0' param='[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]</field>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarMonthAbbreviation:nk]</field>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarQuarterLabel:nk]</field>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarYear:qk]</field>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:ChannelName:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='SalesByTime'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarMonthAbbreviation:nk]</field>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarQuarterLabel:nk]</field>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarYear:qk]</field>
+            <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[none:CalendarYearMonth:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='SalesByChannel'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[sqlserver.0nvdpxx1xq111w11oiyhq0mokv6b].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='SalesByTime'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='SalesByChannel' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='SalesByTime' width='192'>
+      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
+      6KKrVQbRAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAB2HAAAdhwGP5fFl
+      AAACGklEQVR4nO3TMQHAIADAsDH/dtCCB0yADI4mCvp0zL3OB1H/6wB4yQCkGYA0A5BmANIM
+      QJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCk
+      GYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoB
+      SDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0
+      A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMA
+      aQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5Bm
+      ANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYg
+      zQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIM
+      QJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCk
+      GYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoB
+      SLstyQT1on2wDQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='144' name='Sheet 3' width='174'>
+      iVBORw0KGgoAAAANSUhEUgAAAK4AAACQCAYAAACRfFAzAAAACXBIWXMAAB2HAAAdhwGP5fFl
+      AAABmUlEQVR4nO3SQQ0AIBDAMMC/58MDH7KkVbDH9szMgpjzOwBeGJck45JkXJKMS5JxSTIu
+      ScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45Jk
+      XJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYl
+      ybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKM
+      S5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgk
+      GZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5Jx
+      STIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck
+      45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuSRePYgUc7kJNEQAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

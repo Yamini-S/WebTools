@@ -1,0 +1,675 @@
+﻿GeographyKey,GeographyType,ContinentName,ContinentCode,CityName,StateProvinceName,StateProvinceCode,RegionCountryName,ISO_3166_numeric,ISO_3166_alpha_2,ISO_3166_alpha_3,ETLLoadID,LoadDate,UpdateDate
+1,Continent,Asia,AS,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,2014-09-28 19:34:45.703,2014-09-28 19:34:45.703
+2,Continent,Europe,EU,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,2014-09-28 19:34:45.703,2014-09-28 19:34:45.703
+3,Continent,North America,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,2014-09-28 19:34:45.703,2014-09-28 19:34:45.703
+269,Country/Region,Asia,AS,NULL,NULL,NULL,Armenia,51,AM,ARM,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+270,Country/Region,Asia,AS,NULL,NULL,NSW,Australia,36,AU,AUS,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+271,Country/Region,Asia,AS,NULL,NULL,NULL,Bhutan,64,BT,BTN,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+272,Country/Region,Asia,AS,NULL,NULL,NULL,China,156,CN,CHN,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+273,Country/Region,Asia,AS,NULL,NULL,NULL,India,356,IN,IND,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+274,Country/Region,Asia,AS,NULL,NULL,NULL,Iran,364,IR,IRN,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+275,Country/Region,Asia,AS,NULL,NULL,NULL,Japan,392,JP,JPN,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+276,Country/Region,Asia,AS,NULL,NULL,NULL,Kyrgyzstan,417,KG,KGZ,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+277,Country/Region,Asia,AS,NULL,NULL,NULL,Pakistan,586,PK,PAK,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+278,Country/Region,Asia,AS,NULL,NULL,NULL,Singapore,702,SG,SGP,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+279,Country/Region,Asia,AS,NULL,NULL,NULL,South Korea,410,KR,KOR,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+280,Country/Region,Asia,AS,NULL,NULL,NULL,Syria,760,SY,SYR,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+281,Country/Region,Asia,AS,NULL,NULL,NULL,Taiwan,158,TW,TWN,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+282,Country/Region,Asia,AS,NULL,NULL,NULL,Thailand,764,TH,THA,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+283,Country/Region,Asia,AS,NULL,NULL,NULL,Turkmenistan,795,TM,TKM,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+284,Country/Region,Europe,EU,NULL,NULL,NULL,Denmark       ,208,DK,DNK,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+285,Country/Region,Europe,EU,NULL,NULL,17,France,250,FR,FRA,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+286,Country/Region,Europe,EU,NULL,NULL,BB,Germany ,276,DE,DEU,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+287,Country/Region,Europe,EU,NULL,NULL,NULL,Greece ,300,GR,GRC,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+288,Country/Region,Europe,EU,NULL,NULL,NULL,the Netherlands,528,NL,NLD,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+289,Country/Region,Europe,EU,NULL,NULL,NULL,Ireland ,372,IE,IRL,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+290,Country/Region,Europe,EU,NULL,NULL,NULL,Italy    ,380,IT,ITA,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+291,Country/Region,Europe,EU,NULL,NULL,NULL,Malta,470,MT,MLT,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+292,Country/Region,Europe,EU,NULL,NULL,NULL,Poland ,616,PL,POL,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+293,Country/Region,Europe,EU,NULL,NULL,NULL,Portugal,620,PT,PRT,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+294,Country/Region,Europe,EU,NULL,NULL,NULL,Romania ,642,RO,ROM,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+295,Country/Region,Europe,EU,NULL,NULL,NULL,Russia,643,RU,RUS,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+296,Country/Region,Europe,EU,NULL,NULL,NULL,Slovenia,705,SI,SVN,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+297,Country/Region,Europe,EU,NULL,NULL,NULL,Spain,724,ES,ESP,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+298,Country/Region,Europe,EU,NULL,NULL,NULL,Sweden ,752,SE,SWE,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+299,Country/Region,Europe,EU,NULL,NULL,NULL,Switzerland ,756,CH,CHE,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+300,Country/Region,Europe,EU,NULL,NULL,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+301,Country/Region,North America,NA,NULL,NULL,AB,Canada,124,CA,CAN,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+302,Country/Region,North America,NA,NULL,NULL,AL,United States,840,US,USA,1,2014-09-28 19:51:53.790,2014-09-28 19:51:53.790
+303,State/Province,Asia,AS,NULL,Ahal Province,NULL,Turkmenistan,795,TM,TKM,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+304,State/Province,Asia,AS,NULL,Armenia,NULL,Armenia,51,AM,ARM,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+305,State/Province,Asia,AS,NULL,Beijing,NULL,China,156,CN,CHN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+306,State/Province,Asia,AS,NULL,Chubu,NULL,Japan,392,JP,JPN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+307,State/Province,Asia,AS,NULL,Chuy Province,NULL,Kyrgyzstan,417,KG,KGZ,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+308,State/Province,Asia,AS,NULL,Damascus,NULL,Syria,760,SY,SYR,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+309,State/Province,Asia,AS,NULL,GuangDong,NULL,China,156,CN,CHN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+310,State/Province,Asia,AS,NULL,Hokkaido,NULL,Japan,392,JP,JPN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+311,State/Province,Asia,AS,NULL,Hong Kong,NULL,China,156,CN,CHN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+312,State/Province,Asia,AS,NULL,Islamabad Capital Territory,NULL,Pakistan,586,PK,PAK,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+313,State/Province,Asia,AS,NULL,Kansai,NULL,Japan,392,JP,JPN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+314,State/Province,Asia,AS,NULL,Kanto,NULL,Japan,392,JP,JPN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+315,State/Province,Asia,AS,NULL,Krung Thep,NULL,Thailand,764,TH,THA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+316,State/Province,Asia,AS,NULL,Maharashtra,NULL,India,356,IN,IND,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+317,State/Province,Asia,AS,NULL,Molonglo,NSW,Australia,36,AU,AUS,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+318,State/Province,Asia,AS,NULL,National Capital Territory of Delhi,NULL,India,356,IN,IND,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+319,State/Province,Asia,AS,NULL,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+320,State/Province,Asia,AS,NULL,Seoul-jikhalsi,NULL,South Korea,410,KR,KOR,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+321,State/Province,Asia,AS,NULL,Shanghai,NULL,China,156,CN,CHN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+322,State/Province,Asia,AS,NULL,Singapore,NULL,Singapore,702,SG,SGP,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+323,State/Province,Asia,AS,NULL,Taiwan,NULL,Taiwan,158,TW,TWN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+324,State/Province,Asia,AS,NULL,Tehran,NULL,Iran,364,IR,IRN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+325,State/Province,Asia,AS,NULL,Thimphu District,NULL,Bhutan,64,BT,BTN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+326,State/Province,Asia,AS,NULL,Tohoku,NULL,Japan,392,JP,JPN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+327,State/Province,Asia,AS,NULL,West Bengal,NULL,India,356,IN,IND,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+328,State/Province,Asia,AS,NULL,Xinjiang,NULL,China,156,CN,CHN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+329,State/Province,Asia,AS,NULL,Yeongnam,NULL,South Korea,410,KR,KOR,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+330,State/Province,Europe,EU,NULL,Alpes-Maritimes,17,France,250,FR,FRA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+331,State/Province,Europe,EU,NULL,Bas-Rhin,17,France,250,FR,FRA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+332,State/Province,Europe,EU,NULL,Bavaria,BB,Germany ,276,DE,DEU,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+333,State/Province,Europe,EU,NULL,Bayern,BB,Germany ,276,DE,DEU,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+334,State/Province,Europe,EU,NULL,Berlin,BB,Germany ,276,DE,DEU,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+335,State/Province,Europe,EU,NULL,Bern,NULL,Switzerland ,756,CH,CHE,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+336,State/Province,Europe,EU,NULL,Bucuresti,NULL,Romania ,642,RO,ROM,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+337,State/Province,Europe,EU,NULL,Central Greece and Evvoia,NULL,Greece ,300,GR,GRC,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+338,State/Province,Europe,EU,NULL,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+339,State/Province,Europe,EU,NULL,Hesse,BB,Germany ,276,DE,DEU,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+340,State/Province,Europe,EU,NULL,Ile-del-France,17,France,250,FR,FRA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+341,State/Province,Europe,EU,NULL,Leinster,NULL,Ireland ,372,IE,IRL,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+342,State/Province,Europe,EU,NULL,Lisboa Region,NULL,Portugal,620,PT,PRT,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+343,State/Province,Europe,EU,NULL,Ljubljana,NULL,Slovenia,705,SI,SVN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+344,State/Province,Europe,EU,NULL,Lombardia,NULL,Italy    ,380,IT,ITA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+345,State/Province,Europe,EU,NULL,Madrid,NULL,Spain,724,ES,ESP,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+346,State/Province,Europe,EU,NULL,Midi-Pyrenees,17,France,250,FR,FRA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+347,State/Province,Europe,EU,NULL,Moskovskaya oblast,NULL,Russia,643,RU,RUS,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+348,State/Province,Europe,EU,NULL,Nizhny Novgorod Oblast,NULL,Russia,643,RU,RUS,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+349,State/Province,Europe,EU,NULL,Noord-Holland,NULL,the Netherlands,528,NL,NLD,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+350,State/Province,Europe,EU,NULL,Nordrhein-Westfalen,BB,Germany ,276,DE,DEU,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+351,State/Province,Europe,EU,NULL,North Rhine-Westphalia,BB,Germany ,276,DE,DEU,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+352,State/Province,Europe,EU,NULL,Northwestern,NULL,Russia,643,RU,RUS,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+353,State/Province,Europe,EU,NULL,Pays de la Loire,17,France,250,FR,FRA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+354,State/Province,Europe,EU,NULL,Provence-Alpes-Cote d'Azur,17,France,250,FR,FRA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+355,State/Province,Europe,EU,NULL,Province of Florence,NULL,Italy    ,380,IT,ITA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+356,State/Province,Europe,EU,NULL,Province of Turin,NULL,Italy    ,380,IT,ITA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+357,State/Province,Europe,EU,NULL,Rhineland-Palatinate,BB,Germany ,276,DE,DEU,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+358,State/Province,Europe,EU,NULL,Rhone-Alpes ,17,France,250,FR,FRA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+359,State/Province,Europe,EU,NULL,Roma,NULL,Italy    ,380,IT,ITA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+360,State/Province,Europe,EU,NULL,Scotland,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+361,State/Province,Europe,EU,NULL,Staden Kobenhavn,NULL,Denmark       ,208,DK,DNK,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+362,State/Province,Europe,EU,NULL,Stockholms,NULL,Sweden ,752,SE,SWE,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+363,State/Province,Europe,EU,NULL,Valletta,NULL,Malta,470,MT,MLT,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+364,State/Province,Europe,EU,NULL,Venice,NULL,Italy    ,380,IT,ITA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+365,State/Province,Europe,EU,NULL,Warszawa,NULL,Poland ,616,PL,POL,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+366,State/Province,North America,NA,NULL,Alaska,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+367,State/Province,North America,NA,NULL,Alberta,AB,Canada,124,CA,CAN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+368,State/Province,North America,NA,NULL,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+369,State/Province,North America,NA,NULL,Colorado,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+370,State/Province,North America,NA,NULL,Connecticut,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+371,State/Province,North America,NA,NULL,Florida,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+372,State/Province,North America,NA,NULL,Maine,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+373,State/Province,North America,NA,NULL,Maryland,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+374,State/Province,North America,NA,NULL,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+375,State/Province,North America,NA,NULL,New Jersey,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+376,State/Province,North America,NA,NULL,New York,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+377,State/Province,North America,NA,NULL,Ontario,AB,Canada,124,CA,CAN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+378,State/Province,North America,NA,NULL,Quebec,AB,Canada,124,CA,CAN,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+379,State/Province,North America,NA,NULL,South Carolina,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+380,State/Province,North America,NA,NULL,Texas,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+381,State/Province,North America,NA,NULL,Virginia,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+382,State/Province,North America,NA,NULL,Washington,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+383,State/Province,North America,NA,NULL,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 19:53:25.110,2014-09-28 19:53:25.110
+384,State/Province,Asia,AS,NULL,Tasmania,NSW,Australia,36,AU,AUS,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+385,State/Province,Europe,EU,NULL,Hessen,BB,Germany,276,DE,DEU,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+386,State/Province,North America,NA,NULL,Mississippi,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+387,State/Province,Europe,EU,NULL,Essonne,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+388,State/Province,Europe,EU,NULL,Hamburg,BB,Germany,276,DE,DEU,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+389,State/Province,Europe,EU,NULL,Hauts de Seine,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+390,State/Province,North America,NA,NULL,Ohio,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+391,State/Province,Europe,EU,NULL,Seine Saint Denis,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+392,State/Province,North America,NA,NULL,Alabama,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+393,State/Province,Europe,EU,NULL,Garonne (Haute),17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+394,State/Province,North America,NA,NULL,Arizona,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+395,State/Province,Europe,EU,NULL,Pas de Calais,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+396,State/Province,North America,NA,NULL,North Carolina,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+397,State/Province,North America,NA,NULL,Minnesota,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+398,State/Province,Europe,EU,NULL,Yveline,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+399,State/Province,Europe,EU,NULL,Loiret,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+400,State/Province,Europe,EU,NULL,Nord,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+401,State/Province,North America,NA,NULL,Wyoming,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+402,State/Province,Europe,EU,NULL,Seine (Paris),17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+403,State/Province,Europe,EU,NULL,Val de Marne,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+404,State/Province,Europe,EU,NULL,Brandenburg,BB,Germany,276,DE,DEU,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+405,State/Province,Europe,EU,NULL,Val d'Oise,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+406,State/Province,North America,NA,NULL,Kentucky,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+407,State/Province,Asia,AS,NULL,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+408,State/Province,North America,NA,NULL,Illinois,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+409,State/Province,North America,NA,NULL,Utah,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+410,State/Province,Europe,EU,NULL,Seine et Marne,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+411,State/Province,North America,NA,NULL,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+412,State/Province,Asia,AS,NULL,South Australia,NSW,Australia,36,AU,AUS,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+413,State/Province,Europe,EU,NULL,Somme,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+414,State/Province,Europe,EU,NULL,Loir et Cher,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+415,State/Province,North America,NA,NULL,Montana,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+416,State/Province,Europe,EU,NULL,Charente-Maritime,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+417,State/Province,North America,NA,NULL,California,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+418,State/Province,Europe,EU,NULL,Moselle,17,France,250,FR,FRA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+419,State/Province,Europe,EU,NULL,Saarland,BB,Germany,276,DE,DEU,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+420,State/Province,Asia,AS,NULL,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+421,State/Province,North America,NA,NULL,Missouri,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+422,State/Province,North America,NA,NULL,Georgia,AL,United States,840,US,USA,1,2014-09-28 20:12:20.173,2014-09-28 20:12:20.173
+423,City,Europe,EU,Basingstoke Hants,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+424,City,North America,NA,Bellevue,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+425,City,Asia,AS,Bendigo,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+426,City,Europe,EU,Berks,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+430,City,North America,NA,Beverly Hills,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+431,City,North America,NA,Billings,Montana,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+432,City,North America,NA,Biloxi,Mississippi,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+433,City,North America,NA,Birmingham,Alabama,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+434,City,North America,NA,Bluffton,South Carolina,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+435,City,Europe,EU,Bobigny,Seine Saint Denis,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+436,City,North America,NA,Bothell,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+437,City,Europe,EU,Bottrop,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+438,City,North America,NA,Bountiful,Utah,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+439,City,Europe,EU,Bracknell,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+440,City,North America,NA,Braintree,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+441,City,North America,NA,Branson,Missouri,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+442,City,North America,NA,Bremerton,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+443,City,North America,NA,Burbank,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+444,City,North America,NA,Burbank,Ohio,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+445,City,North America,NA,Burlingame,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+446,City,North America,NA,Burnaby,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+447,City,Europe,EU,Bury,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+448,City,North America,NA,Byron,Georgia,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+449,City,Europe,EU,Cambridge,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+450,City,North America,NA,Campbellsville,Kentucky,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+451,City,North America,NA,Carol Stream,Illinois,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+452,City,North America,NA,Carrollton,Texas,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+453,City,North America,NA,Cedar Park,Texas,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+454,City,Europe,EU,Cergy,Val d'Oise,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+455,City,North America,NA,Cerritos,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+456,City,North America,NA,Chalk River,Ontario,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+457,City,North America,NA,Chantilly,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+458,City,North America,NA,Charlotte,North Carolina,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+459,City,Europe,EU,Chatou,Yveline,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+460,City,North America,NA,Chehalis,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+461,City,North America,NA,Cheyenne,Wyoming,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+462,City,North America,NA,Cincinnati,Ohio,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+463,City,North America,NA,City Of Commerce,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+464,City,North America,NA,Clarkston,Georgia,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+465,City,North America,NA,Clay,New York,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+466,City,North America,NA,Clearwater,Florida,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+467,City,North America,NA,Cliffside,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+468,City,Asia,AS,Coffs Harbour,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+469,City,North America,NA,Colma,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+470,City,North America,NA,Concord,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+471,City,Asia,AS,Cranbourne,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+472,City,North America,NA,Daly City,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+473,City,Asia,AS,Darlinghurst,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+474,City,Europe,EU,Darmstadt,Hesse,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+475,City,North America,NA,Downey,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+476,City,Europe,EU,Drancy,Seine Saint Denis,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+478,City,Asia,AS,East Brisbane,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+479,City,North America,NA,Edmonds,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+480,City,Europe,EU,Eilenburg,Saxony,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+481,City,Europe,EU,Esher-Molesey,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+482,City,Europe,EU,Essen,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+483,City,Europe,EU,Frankfurt,Hesse,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+485,City,Europe,EU,Gateshead,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+486,City,Europe,EU,Gloucestershire,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+487,City,Asia,AS,Gold Coast,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+488,City,North America,NA,Grossmont,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+490,City,North America,NA,Haney,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+491,City,Europe,EU,Hanover,Lower Saxony,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+492,City,Asia,AS,Hervey Bay,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+493,City,Asia,AS,Hobart,Tasmania,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+494,City,North America,NA,Imperial Beach,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+495,City,North America,NA,Issaquah,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+496,City,Europe,EU,Kiel,Schleswig-Holstein,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+497,City,Europe,EU,Kirkby,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+498,City,Europe,EU,Lancaster,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+499,City,North America,NA,Langley,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+500,City,North America,NA,Lebanon,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+501,City,Europe,EU,Leeds,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+502,City,North America,NA,Lemon Grove,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+503,City,Europe,EU,Les Ulis,Essonne,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+504,City,Europe,EU,Lieusaint,Seine et Marne,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+505,City,North America,NA,Lincoln Acres,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+506,City,Europe,EU,London,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+507,City,North America,NA,Lynnwood,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+508,City,North America,NA,Marysville,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+509,City,Asia,AS,Matraville,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+510,City,Asia,AS,Melton,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+511,City,North America,NA,Metchosin,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+512,City,Asia,AS,Milsons Point,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+513,City,Europe,EU,Mühlheim am Main,Hesse,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+515,City,Europe,EU,Munster,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+516,City,North America,NA,National City,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+517,City,Europe,EU,Neunkirchen,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+518,City,Asia,AS,Newcastle,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+519,City,Asia,AS,North Ryde,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+520,City,North America,NA,Oakland,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+521,City,Europe,EU,Offenbach am Main,Hesse,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+522,City,North America,NA,Olympia,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+523,City,North America,NA,Oregon City,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+524,City,Europe,EU,Orly,Val de Marne,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+525,City,Europe,EU,Oxford,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+527,City,North America,NA,Palo Alto,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+528,City,Europe,EU,Pantin,Seine Saint Denis,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+529,City,Europe,EU,Paris,Seine (Paris),17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+530,City,Europe,EU,Paris La Defense,Hauts de Seine,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+531,City,Asia,AS,Perth,South Australia,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+532,City,Europe,EU,Peterborough,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+533,City,Europe,EU,Poing,Bavaria,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+534,City,Asia,AS,Port Macquarie,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+535,City,North America,NA,Port Orchard,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+536,City,North America,NA,Portland,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+537,City,North America,NA,Puyallup,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+538,City,North America,NA,Redwood City,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+539,City,Europe,EU,Roncq,Nord,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+540,City,Europe,EU,Roubaix,Nord,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+541,City,Europe,EU,Runcorn,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+542,City,Europe,EU,Saarlouis,Saar,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+543,City,Europe,EU,Saint Germain en Laye,Yveline,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+544,City,Europe,EU,Saint Ouen,Somme,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+545,City,Europe,EU,Saint-Denis,Seine Saint Denis,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+546,City,North America,NA,San Carlos,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+547,City,North America,NA,Santa Monica,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+548,City,Europe,EU,Sèvres,Hauts de Seine,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+549,City,Asia,AS,Silverwater,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+550,City,North America,NA,Sooke,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+551,City,North America,NA,Spokane,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+552,City,North America,NA,Spring Valley,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+553,City,Asia,AS,Springwood,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+554,City,Asia,AS,St. Leonards,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+555,City,Europe,EU,Stuttgart,Baden-Wuerttemberg,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+556,City,Europe,EU,Sulzbach Taunus,Saar,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+557,City,Europe,EU,Suresnes,Hauts de Seine,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+558,City,Asia,AS,Sydney,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+559,City,North America,NA,Tacoma,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+560,City,North America,NA,Torrance,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+561,City,Asia,AS,Townsville,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+562,City,North America,NA,Vancouver,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+563,City,Europe,EU,Verrieres Le Buisson,Essonne,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+564,City,Europe,EU,Versailles,Yveline,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+565,City,Europe,EU,W. York,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+566,City,North America,NA,Walla Walla,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+567,City,Europe,EU,Warrington,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+568,City,Asia,AS,Warrnambool,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+569,City,Europe,EU,Werne,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+570,City,North America,NA,West Covina,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+571,City,North America,NA,Westminster,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+572,City,Europe,EU,Wokingham,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+573,City,North America,NA,Woodburn,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+574,City,Europe,EU,Woolston,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+575,City,North America,NA,Yakima,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+576,City,Europe,EU,York,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+577,City,North America,NA,Ballard,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+578,City,North America,NA,Barstow,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+579,City,North America,NA,Baytown,Texas,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+580,City,North America,NA,Beaverton,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+581,City,North America,NA,Bell Gardens,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+582,City,North America,NA,Bellflower,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+583,City,North America,NA,Bellingham,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+584,City,North America,NA,Berkeley,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+585,City,Europe,EU,Berkshire,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+586,City,Europe,EU,Berlin,Berlin,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+587,City,Europe,EU,Billericay,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+588,City,Europe,EU,Birmingham,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+590,City,Europe,EU,Bonn,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+591,City,Europe,EU,Boulogne-Billancourt,Hauts de Seine,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+592,City,Europe,EU,Boulogne-sur-Mer,Pas de Calais,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+593,City,North America,NA,Bradenton,Florida,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+594,City,North America,NA,Branch,Minnesota,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+595,City,Europe,EU,Brunswick,Lower Saxony,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+596,City,Asia,AS,Brisbane,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+597,City,North America,NA,Burien,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+598,City,North America,NA,Calgary,Alberta,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+599,City,Asia,AS,Caloundra,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+600,City,North America,NA,Camarillo,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+601,City,North America,NA,Canoga Park,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+602,City,North America,NA,Carson,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+603,City,North America,NA,Casper,Wyoming,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+604,City,North America,NA,Cedar City,Utah,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+605,City,North America,NA,Central Valley,New York,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+606,City,North America,NA,Chandler,Arizona,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+607,City,North America,NA,Cheektowaga,New York,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+608,City,Europe,EU,Cheltenham,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+609,City,North America,NA,Chicago,Illinois,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+610,City,North America,NA,Chula Vista,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+611,City,North America,NA,Citrus Heights,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+612,City,North America,NA,Clackamas,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+613,City,Asia,AS,Cloverdale,South Australia,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+614,City,North America,NA,College Station,Texas,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+615,City,Europe,EU,Colombes,Hauts de Seine,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+616,City,Europe,EU,Colomiers,Garonne (Haute),17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+617,City,North America,NA,Columbus,Georgia,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+618,City,North America,NA,Columbus,Ohio,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+619,City,North America,NA,Coronado,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+620,City,North America,NA,Corvallis,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+621,City,Europe,EU,Courbevoie,Hauts de Seine,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+622,City,Europe,EU,Croix,Nord,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+623,City,Europe,EU,Dresden,Saxony,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+624,City,Europe,EU,Dunkerque,Nord,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+625,City,North America,NA,El Cajon,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+626,City,Europe,EU,Erlangen,Bavaria,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+627,City,North America,NA,Everett,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+628,City,Asia,AS,Findon,South Australia,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+629,City,Europe,EU,Frankfurt,Bavaria,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+631,City,North America,NA,Fremont,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+632,City,Asia,AS,Geelong,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+633,City,North America,NA,Glendale,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+634,City,Asia,AS,Goulburn,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+635,City,Europe,EU,Grevenbroich,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+637,City,Asia,AS,Hawthorne,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+638,City,Europe,EU,High Wycombe,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+639,City,Europe,EU,Hof,Bavaria,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+640,City,Europe,EU,Ingolstadt,Bavaria,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+641,City,Europe,EU,Kassel,Hesse,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+642,City,North America,NA,Kirkland,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+643,City,North America,NA,La Jolla,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+644,City,North America,NA,Lake Oswego,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+645,City,North America,NA,Lakewood,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+646,City,Asia,AS,Lane Cove,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+647,City,North America,NA,Langford,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+648,City,Asia,AS,Lavender Bay,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+649,City,Europe,EU,Leipzig,Saxony,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+650,City,Europe,EU,Lille,Nord,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+651,City,Europe,EU,Liverpool,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+652,City,North America,NA,Long Beach,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+653,City,North America,NA,Los Angeles,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+654,City,Europe,EU,Maidenhead,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+655,City,Asia,AS,Malabar,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+656,City,Asia,AS,Melbourne,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+657,City,Europe,EU,Metz,Moselle,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+658,City,North America,NA,Mill Valley,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+659,City,Europe,EU,Milton Keynes,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+660,City,North America,NA,Milwaukie,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+661,City,Europe,EU,Morangis,Essonne,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+662,City,Europe,EU,Hamburg ,Hamburg,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+664,City,Europe,EU,Mönchengladbach,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+665,City,North America,NA,N. Vancouver,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+666,City,Europe,EU,Newcastle upon Tyne,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+667,City,North America,NA,Newport Beach,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+668,City,North America,NA,Newton,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+669,City,Asia,AS,North Sydney,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+670,City,North America,NA,Novato,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+671,City,North America,NA,Oak Bay,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+672,City,Europe,EU,Orleans,Loiret,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+673,City,Europe,EU,Oxon,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+674,City,Europe,EU,Paderborn,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+675,City,North America,NA,Port Hammond,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+676,City,Europe,EU,Reading,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+677,City,North America,NA,Redmond,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+678,City,North America,NA,Renton,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+679,City,Asia,AS,Rhodes,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+680,City,Asia,AS,Rockhampton,Queensland,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+681,City,Europe,EU,Roissy en Brie,Seine et Marne,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+682,City,North America,NA,Royal Oak,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+683,City,Europe,EU,Saarbrücken,Saar,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+684,City,Europe,EU,Saint Ouen,Charente-Maritime,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+685,City,Europe,EU,Saint Ouen,Loir et Cher,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+686,City,North America,NA,Salem,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+687,City,Europe,EU,Salzgitter,Lower Saxony,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+688,City,North America,NA,San Diego,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+689,City,North America,NA,San Francisco,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+690,City,North America,NA,San Gabriel,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+691,City,North America,NA,Santa Cruz,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+692,City,Asia,AS,Seaford,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+693,City,North America,NA,Seattle,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+694,City,North America,NA,Sedro Woolley,Washington,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+695,City,North America,NA,Shawnee,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+696,City,Europe,EU,Solingen,North Rhine-Westphalia,BB,Germany,276,DE,DEU,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+697,City,Asia,AS,South Melbourne,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+698,City,Europe,EU,Stoke-on-Trent,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+699,City,Asia,AS,Sunbury,Victoria,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+700,City,Europe,EU,Tremblay-en-France,Seine Saint Denis,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+701,City,North America,NA,Victoria,British Columbia,AB,Canada,124,CA,CAN,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+702,City,Europe,EU,Villeneuve-d'Ascq,Nord,17,France,250,FR,FRA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+703,City,North America,NA,W. Linn,Oregon,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+704,City,Europe,EU,Watford,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+705,City,Europe,EU,West Sussex,England,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+706,City,Asia,AS,Wollongong,New South Wales,NSW,Australia,36,AU,AUS,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+707,City,North America,NA,Woodland Hills,California,AL,United States,840,US,USA,1,2014-09-28 20:13:34.990,2014-09-28 20:13:34.990
+708,City,Asia,AS,Ashgabat,Ahal Province,NULL,Turkmenistan,795,TM,TKM,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+709,City,Asia,AS,Bangkok,Krung Thep,NULL,Thailand,764,TH,THA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+710,City,Asia,AS,Beijing,Beijing,NULL,China,156,CN,CHN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+711,City,Asia,AS,Bishkek,Chuy Province,NULL,Kyrgyzstan,417,KG,KGZ,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+712,City,Asia,AS,Busan ,Yeongnam,NULL,South Korea,410,KR,KOR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+713,City,Asia,AS,Canberra,Molonglo,NSW,Australia,36,AU,AUS,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+714,City,Asia,AS,Damascus,Damascus,NULL,Syria,760,SY,SYR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+715,City,Asia,AS,Guangzhou,GuangDong,NULL,China,156,CN,CHN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+716,City,Asia,AS,Hong Kong,Hong Kong,NULL,China,156,CN,CHN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+717,City,Asia,AS,Islamabad,Islamabad Capital Territory,NULL,Pakistan,586,PK,PAK,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+718,City,Asia,AS,Kolkata ,West Bengal,NULL,India,356,IN,IND,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+719,City,Asia,AS,Kyoto ,Kansai,NULL,Japan,392,JP,JPN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+720,City,Asia,AS,Miyagi,Tohoku,NULL,Japan,392,JP,JPN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+721,City,Asia,AS,Mumbai ,Maharashtra,NULL,India,356,IN,IND,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+722,City,Asia,AS,Nagoya ,Chubu,NULL,Japan,392,JP,JPN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+723,City,Asia,AS,New Delhi,National Capital Territory of Delhi,NULL,India,356,IN,IND,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+724,City,Asia,AS,Osaka ,Kansai,NULL,Japan,392,JP,JPN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+725,City,Asia,AS,Sapporo ,Hokkaido,NULL,Japan,392,JP,JPN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+726,City,Asia,AS,Seoul,Seoul-jikhalsi,NULL,South Korea,410,KR,KOR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+727,City,Asia,AS,Shanghai,Shanghai,NULL,China,156,CN,CHN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+728,City,Asia,AS,Singapore,Singapore,NULL,Singapore,702,SG,SGP,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+729,City,Asia,AS,Taipei,Taiwan,NULL,Taiwan,158,TW,TWN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+730,City,Asia,AS,Tehran,Tehran,NULL,Iran,364,IR,IRN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+731,City,Asia,AS,Thimphu,Thimphu District,NULL,Bhutan,64,BT,BTN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+732,City,Asia,AS,Tokyo,Kanto,NULL,Japan,392,JP,JPN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+733,City,Asia,AS,Urumqi,Xinjiang,NULL,China,156,CN,CHN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+734,City,Asia,AS,Yerevan,Armenia,NULL,Armenia,51,AM,ARM,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+735,City,Asia,AS,Yokohama ,Kanto,NULL,Japan,392,JP,JPN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+736,City,Europe,EU,Amsterdam,Noord-Holland,NULL,the Netherlands,528,NL,NLD,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+737,City,Europe,EU,Athens,Central Greece and Evvoia,NULL,Greece ,300,GR,GRC,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+738,City,Europe,EU,Baildon,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+739,City,Europe,EU,Baumholder,Rhineland-Palatinate,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+740,City,Europe,EU,Berne,Bern,NULL,Switzerland ,756,CH,CHE,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+741,City,Europe,EU,Bucharest,Bucuresti,NULL,Romania ,642,RO,ROM,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+742,City,Europe,EU,Carlisle,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+743,City,Europe,EU,Cheshire,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+745,City,Europe,EU,Copenhagen,Staden Kobenhavn,NULL,Denmark       ,208,DK,DNK,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+746,City,Europe,EU,Dublin,Leinster,NULL,Ireland ,372,IE,IRL,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+747,City,Europe,EU,Dusseldorf,North Rhine-Westphalia,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+748,City,Europe,EU,Edinburgh,Scotland,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+749,City,Europe,EU,Firenze,Province of Florence,NULL,Italy    ,380,IT,ITA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+750,City,Europe,EU,Giebelstadt,Bavaria,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+751,City,Europe,EU,Glasgow,Scotland,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+752,City,Europe,EU,Hofheim am Taunus,Hesse,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+753,City,Europe,EU,Knotty Ash,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+754,City,Europe,EU,Koln,North Rhine-Westphalia,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+755,City,Europe,EU,Lancashire,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+756,City,Europe,EU,Landstuhl,Rhineland-Palatinate,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+757,City,Europe,EU,Lisbon,Lisboa Region,NULL,Portugal,620,PT,PRT,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+758,City,Europe,EU,Ljubljana,Ljubljana,NULL,Slovenia,705,SI,SVN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+759,City,Europe,EU,Lyon,Rhone-Alpes ,17,France,250,FR,FRA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+760,City,Europe,EU,Madrid,Madrid,NULL,Spain,724,ES,ESP,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+761,City,Europe,EU,Manchester,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+762,City,Europe,EU,Marseille,Provence-Alpes-Cote d'Azur,17,France,250,FR,FRA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+763,City,Europe,EU,Milan,Lombardia,NULL,Italy    ,380,IT,ITA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+764,City,Europe,EU,Moscow,Moskovskaya oblast,NULL,Russia,643,RU,RUS,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+765,City,Europe,EU,Munich,Bavaria,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+766,City,Europe,EU,Nantes,Pays de la Loire,17,France,250,FR,FRA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+767,City,Europe,EU,Nice,Alpes-Maritimes,17,France,250,FR,FRA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+768,City,Europe,EU,Nizhny Novgorod ,Nizhny Novgorod Oblast,NULL,Russia,643,RU,RUS,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+769,City,Europe,EU,Bamberg,Bavaria,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+770,City,Europe,EU,Ramstein,Rhineland-Palatinate,BB,Germany ,276,DE,DEU,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+771,City,Europe,EU,Roma,Roma,NULL,Italy    ,380,IT,ITA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+772,City,Europe,EU,Saint Petersburg,Northwestern,NULL,Russia,643,RU,RUS,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+773,City,Europe,EU,Stockholm,Stockholms,NULL,Sweden ,752,SE,SWE,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+774,City,Europe,EU,Stockport,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+775,City,Europe,EU,Strasbourg,Bas-Rhin,17,France,250,FR,FRA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+776,City,Europe,EU,Torino,Province of Turin,NULL,Italy    ,380,IT,ITA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+777,City,Europe,EU,Toulouse,Midi-Pyrenees,17,France,250,FR,FRA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+778,City,Europe,EU,Valletta,Valletta,NULL,Malta,470,MT,MLT,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+779,City,Europe,EU,Venezia,Venice,NULL,Italy    ,380,IT,ITA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+780,City,Europe,EU,Warsaw,Warszawa,NULL,Poland ,616,PL,POL,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+781,City,Europe,EU,West Yorkshire,England ,ENG,United Kingdom,826,GB,GBR,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+782,City,North America,NA,Albany,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+783,City,North America,NA,Alexandria,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+784,City,North America,NA,Anchorage,Alaska,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+785,City,North America,NA,Annapolis,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+786,City,North America,NA,Appleton,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+787,City,North America,NA,Arlington,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+788,City,North America,NA,Atlantic City ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+789,City,North America,NA,Attleboro,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+790,City,North America,NA,Aurora,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+791,City,North America,NA,Austin,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+792,City,North America,NA,Back River,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+793,City,North America,NA,Bacliff,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+794,City,North America,NA,Baltimore,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+795,City,North America,NA,Bangor,Maine,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+796,City,North America,NA,Bar Harbor,Maine,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+797,City,North America,NA,Bayonne ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+798,City,North America,NA,Beaumont,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+799,City,North America,NA,Berthoud,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+800,City,North America,NA,Bethesda,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+801,City,North America,NA,Bridgeport,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+802,City,North America,NA,Boston,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+803,City,North America,NA,Boulder,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+804,City,North America,NA,Brooklyn,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+805,City,North America,NA,Buffalo,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+806,City,North America,NA,Burlington,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+807,City,North America,NA,Cape Canaveral,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+808,City,North America,NA,Cape May,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+809,City,North America,NA,Castle Rock,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+810,City,North America,NA,Charleston ,South Carolina,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+811,City,North America,NA,Charlottesville ,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+812,City,North America,NA,Cheney,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+813,City,North America,NA,Cle Elum,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+814,City,North America,NA,Clifton,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+815,City,North America,NA,Dallas,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+816,City,North America,NA,Darien,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+817,City,North America,NA,Denton,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+818,City,North America,NA,Denver,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+819,City,North America,NA,Desoto,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+820,City,North America,NA,East Orange ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+821,City,North America,NA,East Troy,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+822,City,North America,NA,Edgerton,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+823,City,North America,NA,Elmira,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+824,City,North America,NA,Englewood,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+825,City,North America,NA,Fall City,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+826,City,North America,NA,Falmouth,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+827,City,North America,NA,Fond du Lac,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+828,City,North America,NA,Fort Atkinson,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+829,City,North America,NA,Fort Collins,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+830,City,North America,NA,Fort Lauderdale,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+831,City,North America,NA,Fort Worth,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+832,City,North America,NA,Framingham,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+833,City,North America,NA,Fredericksburg,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+834,City,North America,NA,Georgetown,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+835,City,North America,NA,Germantown,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+836,City,North America,NA,Grand Junction,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+837,City,North America,NA,Grand Prairie,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+838,City,North America,NA,Granger,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+839,City,North America,NA,Greeley,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+840,City,North America,NA,Green Bay,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+841,City,North America,NA,Greenville,South Carolina,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+842,City,North America,NA,Hackensack ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+843,City,North America,NA,Hartford,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+844,City,North America,NA,Haverhill,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+845,City,North America,NA,Hillsboro,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+846,City,North America,NA,Hingham,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+847,City,North America,NA,Hoboken ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+848,City,North America,NA,Holyoke,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+849,City,North America,NA,Houston,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+850,City,North America,NA,Howard,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+851,City,North America,NA,Humble,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+852,City,North America,NA,Ithaca,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+853,City,North America,NA,Jacksonville,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+854,City,North America,NA,Jersey City,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+855,City,North America,NA,Kennebunkport,Maine,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+856,City,North America,NA,Kennewick,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+857,City,North America,NA,Key West,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+858,City,North America,NA,La Porte,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+859,City,North America,NA,Lafayette,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+860,City,North America,NA,Lakeland,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+861,City,North America,NA,Leominster,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+862,City,North America,NA,Lewiston,Maine,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+863,City,North America,NA,Lewisville,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+864,City,North America,NA,Litchfield County,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+865,City,North America,NA,Littleton,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+866,City,North America,NA,Longview,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+867,City,North America,NA,Loveland,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+868,City,North America,NA,Lowell,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+869,City,North America,NA,Lynn,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+870,City,North America,NA,Madison,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+871,City,North America,NA,Manitowoc,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+872,City,North America,NA,Marshall,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+873,City,North America,NA,Martinsville ,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+874,City,North America,NA,Menasha,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+875,City,North America,NA,Miami,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+876,City,North America,NA,Midland,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+877,City,North America,NA,Milliken,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+878,City,North America,NA,Milwaukee,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+879,City,North America,NA,Minden,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+880,City,North America,NA,Montclair ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+881,City,North America,NA,Montreal,Quebec,AB,Canada,124,CA,CAN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+882,City,North America,NA,Morristown ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+883,City,North America,NA,Nantucket,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+884,City,North America,NA,Naples,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+885,City,North America,NA,New Bedford,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+886,City,North America,NA,New Brunswick ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+887,City,North America,NA,New Castle,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+888,City,North America,NA,New Haven ,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+889,City,North America,NA,New London,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+890,City,North America,NA,New York,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+891,City,North America,NA,Newark,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+892,City,North America,NA,Norfolk,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+893,City,North America,NA,North Bend,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+894,City,North America,NA,North Harford,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+895,City,North America,NA,Northampton,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+896,City,North America,NA,Old Saybrook,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+897,City,North America,NA,Orange,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+898,City,North America,NA,Oregon,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+899,City,North America,NA,Orlando,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+900,City,North America,NA,Orono,Maine,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+901,City,North America,NA,Oshkosh,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+902,City,North America,NA,Oswego,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+903,City,North America,NA,Ottawa,Ontario,AB,Canada,124,CA,CAN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+904,City,North America,NA,Parker,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+905,City,North America,NA,Parkville,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+906,City,North America,NA,Pasadena,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+907,City,North America,NA,Passaic ,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+908,City,North America,NA,Paterson,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+909,City,North America,NA,Pittsfield,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+910,City,North America,NA,Plano,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+911,City,North America,NA,Plattsburgh,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+912,City,North America,NA,Poestenkill,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+913,City,North America,NA,Port Washington,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+914,City,North America,NA,Provincetown,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+915,City,North America,NA,Queen Anne's County,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+916,City,North America,NA,Queens,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+917,City,North America,NA,Quincy,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+918,City,North America,NA,Racine,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+919,City,North America,NA,Richardson,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+920,City,North America,NA,Ridgely,Maryland,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+921,City,North America,NA,Roanoke,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+922,City,North America,NA,Rochester,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+923,City,North America,NA,Round Rock,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+924,City,North America,NA,Russellville,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+925,City,North America,NA,San Antonio,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+926,City,North America,NA,Sebring,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+927,City,North America,NA,Sedalia,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+928,City,North America,NA,Sheboygan,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+929,City,North America,NA,Shreveport,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+930,City,North America,NA,Snoqualmie,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+931,City,North America,NA,Somerville,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+932,City,North America,NA,South Portland,Maine,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+933,City,North America,NA,Spring,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+934,City,North America,NA,Stoughton,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+935,City,North America,NA,Sunnyside,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+936,City,North America,NA,Syracuse,New York,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+937,City,North America,NA,Tallahassee,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+938,City,North America,NA,Tampa,Florida,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+939,City,North America,NA,Texas City,Texas,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+940,City,North America,NA,Thornton,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+941,City,North America,NA,Toppenish,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+942,City,North America,NA,Toronto,Ontario,AB,Canada,124,CA,CAN,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+943,City,North America,NA,Trenton,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+944,City,North America,NA,Veradale,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+945,City,North America,NA,Vineland,New Jersey,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+946,City,North America,NA,Virginia Beach,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+947,City,North America,NA,Wapato,Washington,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+948,City,North America,NA,Waterbury,Connecticut,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+949,City,North America,NA,Waukesha,Wisconsin,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+950,City,North America,NA,Wheat Ridge,Colorado,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+951,City,North America,NA,Winchester,Virginia,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
+952,City,North America,NA,Worcester,Massachusetts,AL,United States,840,US,USA,1,2014-09-28 20:19:34.760,2014-09-28 20:19:34.760
